@@ -1,1 +1,0 @@
-/x/.bdx/.bdx.0100.y.rename_with_sn.sh
