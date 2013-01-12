@@ -1,0 +1,1 @@
+sudo aptitude -y install xpdf qpdf pdftk python-pdfminer python-pdftools  pdfgrep mupdf
