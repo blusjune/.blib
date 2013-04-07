@@ -1,0 +1,10 @@
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mw_redirect`
+--
+
+LOCK TABLES `mw_redirect` WRITE;
+/*!40000 ALTER TABLE `mw_redirect` DISABLE KEYS */;
+INSERT INTO `mw_redirect` VALUES (67,0,'Bnote_patidea_2013_PATENT-BRIAN-2013-001'),(61,0,'I/O_Workload_Analysis'),(21,0,'Statistical_Computing_Software'),(23,0,'Statistical_computing_software'),(33,6,'20130207_Kaseya_Industry_Alert_-_Top_Ten_IT_Systems_Management_Pain_Points_.png'),(39,6,'Dram_32gb_gskill_trident_.jpg'),(37,6,'Fusion_IO_Atomic_Writes_.jpg'),(40,6,'Motherboard_max_768gb_memory_tyan_s7052gm3nr_tyankorea_.jpg'),(34,6,'Ptrn_analysis_code_screenshot_.png'),(38,6,'Svm_classification_fig_linear_separable_case_.png'),(36,6,'Tpcc_250gb_48h_mysqld_R_1k_access_pattern_zoom_00_.png'),(35,6,'Tpcc_250gb_48h_mysqld_R_1k_access_pattern_zoom_01_.png');

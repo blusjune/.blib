@@ -1,0 +1,10 @@
+/*!40000 ALTER TABLE `mw_filearchive` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mw_hitcounter`
+--
+
+DROP TABLE IF EXISTS `mw_hitcounter`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;

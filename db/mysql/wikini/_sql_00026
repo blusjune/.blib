@@ -1,0 +1,10 @@
+  KEY `img_sha1` (`img_sha1`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mw_image`
+--
+
+LOCK TABLES `mw_image` WRITE;
+/*!40000 ALTER TABLE `mw_image` DISABLE KEYS */;

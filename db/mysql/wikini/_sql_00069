@@ -1,0 +1,10 @@
+LOCK TABLES `mw_protected_titles` WRITE;
+/*!40000 ALTER TABLE `mw_protected_titles` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mw_protected_titles` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mw_querycache`
+--
+
+DROP TABLE IF EXISTS `mw_querycache`;

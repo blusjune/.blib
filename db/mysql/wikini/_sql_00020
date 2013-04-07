@@ -1,0 +1,10 @@
+  KEY `fa_user_timestamp` (`fa_user_text`,`fa_timestamp`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mw_filearchive`
+--
+
+LOCK TABLES `mw_filearchive` WRITE;
+/*!40000 ALTER TABLE `mw_filearchive` DISABLE KEYS */;

@@ -1,0 +1,10 @@
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mw_image` (
+  `img_name` varbinary(255) NOT NULL DEFAULT '',
+  `img_size` int(10) unsigned NOT NULL DEFAULT '0',
+  `img_width` int(11) NOT NULL DEFAULT '0',
+  `img_height` int(11) NOT NULL DEFAULT '0',
+  `img_metadata` mediumblob NOT NULL,
+  `img_bits` int(11) NOT NULL DEFAULT '0',
+  `img_media_type` enum('UNKNOWN','BITMAP','DRAWING','AUDIO','VIDEO','MULTIMEDIA','OFFICE','TEXT','EXECUTABLE','ARCHIVE') DEFAULT NULL,
+  `img_major_mime` enum('unknown','application','audio','image','text','video','message','model','multipart') NOT NULL DEFAULT 'unknown',

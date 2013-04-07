@@ -1,0 +1,10 @@
+-- Table structure for table `mw_interwiki`
+--
+
+DROP TABLE IF EXISTS `mw_interwiki`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mw_interwiki` (
+  `iw_prefix` varbinary(32) NOT NULL,
+  `iw_url` blob NOT NULL,
+  `iw_local` tinyint(1) NOT NULL,

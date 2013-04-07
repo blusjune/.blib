@@ -1,0 +1,10 @@
+/*!40000 ALTER TABLE `mw_archive` DISABLE KEYS */;
+INSERT INTO `mw_archive` VALUES (0,'Bcode.python.cache.lru','','Created page with \"== Python Code ==  <nowiki>  class LRU_Cache(object):      def __init__(self, original_function, maxsize=1000):         self.original_function = original_function         self.ma…\"',2,'Blusjune','20130108093528',0,'',34,34,0,1513,6,NULL),(0,'Bcode.python.cache.lru','','/* Python Code */',2,'Blusjune','20130108093658',0,'',35,35,0,1514,6,NULL),(0,'Bcode.python.cache.lru','','/* Python Code */',2,'Blusjune','20130109002744',0,'',36,36,0,1529,6,NULL);
+/*!40000 ALTER TABLE `mw_archive` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mw_category`
+--
+
+DROP TABLE IF EXISTS `mw_category`;

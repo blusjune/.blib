@@ -1,6 +1,7 @@
 #!/bin/sh
+##.bdx.0090.n.gpgize_all.sh
+##_ver=20130407_213847
 
-## .bdx.0100.y.gpgize_all.sh
 
 _tstamp=$(date +%Y%m%d_%H%M%S);
 _bpg_ca_comment="Brian M. JUNG <brian.m.jung@gmail.com> // $_tstamp";
@@ -26,3 +27,5 @@ do
 	fi
 	rm -fr $_i;
 done
+
+

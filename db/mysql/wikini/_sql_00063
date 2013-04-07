@@ -1,0 +1,10 @@
+
+--
+-- Dumping data for table `mw_page_restrictions`
+--
+
+LOCK TABLES `mw_page_restrictions` WRITE;
+/*!40000 ALTER TABLE `mw_page_restrictions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mw_page_restrictions` ENABLE KEYS */;
+UNLOCK TABLES;
+

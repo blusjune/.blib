@@ -1,0 +1,10 @@
+  `ss_total_pages` bigint(20) DEFAULT '-1',
+  `ss_users` bigint(20) DEFAULT '-1',
+  `ss_active_users` bigint(20) DEFAULT '-1',
+  `ss_admins` int(11) DEFAULT '-1',
+  `ss_images` int(11) DEFAULT '0',
+  UNIQUE KEY `ss_row_id` (`ss_row_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--

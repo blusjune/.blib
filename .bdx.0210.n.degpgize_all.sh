@@ -1,6 +1,6 @@
 #!/bin/sh
-
-## .bdx.0210.y.degpgize_all.sh
+##.bdx.0210.n.degpgize_all.sh
+##_ver=20130407_214048
 
 
 _tstamp=$(date +%Y%m%d_%H%M%S);
@@ -29,3 +29,5 @@ do
 	gunzip -c $_i | tar xf -;
 	rm $_i;
 done
+
+

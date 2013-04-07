@@ -1,5 +1,0 @@
-##tstamp: 20121107_010517
-
-[book]
-clrs: introduction to algorithms
-upe: unix programming environment

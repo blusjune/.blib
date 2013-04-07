@@ -1,0 +1,10 @@
+LOCK TABLES `mw_job` WRITE;
+/*!40000 ALTER TABLE `mw_job` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mw_job` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mw_langlinks`
+--
+
+DROP TABLE IF EXISTS `mw_langlinks`;

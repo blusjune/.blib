@@ -1,0 +1,10 @@
+  `iw_trans` tinyint(4) NOT NULL DEFAULT '0',
+  UNIQUE KEY `iw_prefix` (`iw_prefix`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mw_interwiki`
+--
+
+LOCK TABLES `mw_interwiki` WRITE;

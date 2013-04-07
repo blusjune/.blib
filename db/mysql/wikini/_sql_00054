@@ -1,0 +1,10 @@
+--
+
+LOCK TABLES `mw_oldimage` WRITE;
+/*!40000 ALTER TABLE `mw_oldimage` DISABLE KEYS */;
+INSERT INTO `mw_oldimage` VALUES ('Msn_filesrvr.t033.process_id.A.top10.xr_whole.png','20130402133031!Msn_filesrvr.t033.process_id.A.top10.xr_whole.png',39130,1920,1004,8,'Real Trace - MSN FileServer 6h (2008-03-10)\nPlot for top 10 heavy I/O processes',2,'Blusjune','20130402105415','0','BITMAP','image','png',0,'39birevwuhvoprmgbuphuhax2tygyu8'),('Msn_filesrvr.t033.process_id.A.top10.xr_whole(dot).png','20130402133041!Msn_filesrvr.t033.process_id.A.top10.xr_whole(dot).png',36755,1920,1004,8,'Real Trace - MSN FileServer 6h (2008-03-10)\nPlot for top 10 heavy I/O processes',2,'Blusjune','20130402105401','0','BITMAP','image','png',0,'m9pn7yq51jvatv0pmmo91bpq25916wf');
+/*!40000 ALTER TABLE `mw_oldimage` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mw_page`
