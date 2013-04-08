@@ -1,3 +1,5 @@
+  `tc_url` varbinary(255) NOT NULL,
+  `tc_contents` blob,
   `tc_time` int(11) NOT NULL,
   UNIQUE KEY `tc_url_idx` (`tc_url`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
@@ -6,5 +8,3 @@
 --
 -- Dumping data for table `mw_transcache`
 --
-
-LOCK TABLES `mw_transcache` WRITE;

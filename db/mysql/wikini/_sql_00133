@@ -1,3 +1,5 @@
+--
+
 LOCK TABLES `mw_user_newtalk` WRITE;
 /*!40000 ALTER TABLE `mw_user_newtalk` DISABLE KEYS */;
 /*!40000 ALTER TABLE `mw_user_newtalk` ENABLE KEYS */;
@@ -6,5 +8,3 @@ UNLOCK TABLES;
 --
 -- Table structure for table `mw_valid_tag`
 --
-
-DROP TABLE IF EXISTS `mw_valid_tag`;
