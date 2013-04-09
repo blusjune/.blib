@@ -3,7 +3,7 @@
 
 LOCK TABLES `mw_site_stats` WRITE;
 /*!40000 ALTER TABLE `mw_site_stats` DISABLE KEYS */;
-INSERT INTO `mw_site_stats` VALUES (1,2436,1840,17,84,2,-1,1,28);
+INSERT INTO `mw_site_stats` VALUES (1,2454,1851,17,84,2,-1,1,28);
 /*!40000 ALTER TABLE `mw_site_stats` ENABLE KEYS */;
 UNLOCK TABLES;
 
