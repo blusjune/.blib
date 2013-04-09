@@ -1,3 +1,4 @@
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `mw_trackbacks` (
   `tb_id` int(11) NOT NULL AUTO_INCREMENT,
@@ -7,4 +8,3 @@ CREATE TABLE `mw_trackbacks` (
   `tb_ex` blob,
   `tb_name` varbinary(255) DEFAULT NULL,
   PRIMARY KEY (`tb_id`),
-  KEY `tb_page` (`tb_page`)

@@ -1,3 +1,4 @@
+  `user_registration` binary(14) DEFAULT NULL,
   `user_editcount` int(11) DEFAULT NULL,
   PRIMARY KEY (`user_id`),
   UNIQUE KEY `user_name` (`user_name`),
@@ -7,4 +8,3 @@
 
 --
 -- Dumping data for table `mw_user`
---

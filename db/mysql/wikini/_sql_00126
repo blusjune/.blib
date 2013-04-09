@@ -1,3 +1,4 @@
+  `user_password` tinyblob NOT NULL,
   `user_newpassword` tinyblob NOT NULL,
   `user_newpass_time` binary(14) DEFAULT NULL,
   `user_email` tinyblob NOT NULL,
@@ -7,4 +8,3 @@
   `user_email_authenticated` binary(14) DEFAULT NULL,
   `user_email_token` binary(32) DEFAULT NULL,
   `user_email_token_expires` binary(14) DEFAULT NULL,
-  `user_registration` binary(14) DEFAULT NULL,
