@@ -1,3 +1,5 @@
+/*!40101 SET character_set_client = @saved_cs_client */;
+
 --
 -- Dumping data for table `mw_updatelog`
 --
@@ -6,5 +8,3 @@ LOCK TABLES `mw_updatelog` WRITE;
 /*!40000 ALTER TABLE `mw_updatelog` DISABLE KEYS */;
 /*!40000 ALTER TABLE `mw_updatelog` ENABLE KEYS */;
 UNLOCK TABLES;
-
---
