@@ -1,3 +1,4 @@
+
 LOCK TABLES `mw_trackbacks` WRITE;
 /*!40000 ALTER TABLE `mw_trackbacks` DISABLE KEYS */;
 /*!40000 ALTER TABLE `mw_trackbacks` ENABLE KEYS */;
@@ -7,4 +8,3 @@ UNLOCK TABLES;
 -- Table structure for table `mw_transcache`
 --
 
-DROP TABLE IF EXISTS `mw_transcache`;
