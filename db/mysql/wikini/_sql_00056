@@ -1,3 +1,5 @@
+  `page_title` varbinary(255) NOT NULL,
+  `page_restrictions` tinyblob NOT NULL,
   `page_counter` bigint(20) unsigned NOT NULL DEFAULT '0',
   `page_is_redirect` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `page_is_new` tinyint(3) unsigned NOT NULL DEFAULT '0',
@@ -6,5 +8,3 @@
   `page_latest` int(10) unsigned NOT NULL,
   `page_len` int(10) unsigned NOT NULL,
   PRIMARY KEY (`page_id`),
-  UNIQUE KEY `name_title` (`page_namespace`,`page_title`),
-  KEY `page_random` (`page_random`),

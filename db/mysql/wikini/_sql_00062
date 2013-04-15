@@ -1,3 +1,5 @@
+  `pr_level` varbinary(60) NOT NULL,
+  `pr_cascade` tinyint(4) NOT NULL,
   `pr_user` int(11) DEFAULT NULL,
   `pr_expiry` varbinary(14) DEFAULT NULL,
   `pr_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -6,5 +8,3 @@
   KEY `pr_typelevel` (`pr_type`,`pr_level`),
   KEY `pr_level` (`pr_level`),
   KEY `pr_cascade` (`pr_cascade`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;

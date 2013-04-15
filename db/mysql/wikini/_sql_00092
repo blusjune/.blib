@@ -1,3 +1,5 @@
+
+--
 -- Table structure for table `mw_site_stats`
 --
 
@@ -6,5 +8,3 @@ DROP TABLE IF EXISTS `mw_site_stats`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `mw_site_stats` (
   `ss_row_id` int(10) unsigned NOT NULL,
-  `ss_total_views` bigint(20) unsigned DEFAULT '0',
-  `ss_total_edits` bigint(20) unsigned DEFAULT '0',

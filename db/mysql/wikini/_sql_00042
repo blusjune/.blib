@@ -1,3 +1,5 @@
+UNLOCK TABLES;
+
 --
 -- Table structure for table `mw_logging`
 --
@@ -6,5 +8,3 @@ DROP TABLE IF EXISTS `mw_logging`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `mw_logging` (
-  `log_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `log_type` varbinary(10) NOT NULL DEFAULT '',

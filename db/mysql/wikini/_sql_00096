@@ -1,3 +1,5 @@
+  `ts_rc_id` int(11) DEFAULT NULL,
+  `ts_log_id` int(11) DEFAULT NULL,
   `ts_rev_id` int(11) DEFAULT NULL,
   `ts_tags` blob NOT NULL,
   UNIQUE KEY `tag_summary_rc_id` (`ts_rc_id`),
@@ -6,5 +8,3 @@
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `mw_tag_summary`

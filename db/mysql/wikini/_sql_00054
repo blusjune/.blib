@@ -1,4 +1,6 @@
 --
+-- Dumping data for table `mw_oldimage`
+--
 
 LOCK TABLES `mw_oldimage` WRITE;
 /*!40000 ALTER TABLE `mw_oldimage` DISABLE KEYS */;
@@ -6,5 +8,3 @@ INSERT INTO `mw_oldimage` VALUES ('Msn_filesrvr.t033.process_id.A.top10.xr_whole
 /*!40000 ALTER TABLE `mw_oldimage` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Table structure for table `mw_page`

@@ -1,3 +1,5 @@
+--
+
 LOCK TABLES `mw_user_groups` WRITE;
 /*!40000 ALTER TABLE `mw_user_groups` DISABLE KEYS */;
 INSERT INTO `mw_user_groups` VALUES (1,'bureaucrat'),(1,'sysop');
@@ -6,5 +8,3 @@ UNLOCK TABLES;
 
 --
 -- Table structure for table `mw_user_newtalk`
---
-

@@ -1,3 +1,5 @@
+LOCK TABLES `mw_filearchive` WRITE;
+/*!40000 ALTER TABLE `mw_filearchive` DISABLE KEYS */;
 /*!40000 ALTER TABLE `mw_filearchive` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -6,5 +8,3 @@ UNLOCK TABLES;
 --
 
 DROP TABLE IF EXISTS `mw_hitcounter`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;

@@ -1,3 +1,5 @@
+  `rc_ip` varbinary(40) NOT NULL DEFAULT '',
+  `rc_old_len` int(11) DEFAULT NULL,
   `rc_new_len` int(11) DEFAULT NULL,
   `rc_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `rc_logid` int(10) unsigned NOT NULL DEFAULT '0',
@@ -6,5 +8,3 @@
   `rc_params` blob,
   PRIMARY KEY (`rc_id`),
   KEY `rc_timestamp` (`rc_timestamp`),
-  KEY `rc_namespace_title` (`rc_namespace`,`rc_title`),
-  KEY `rc_cur_id` (`rc_cur_id`),

@@ -1,3 +1,5 @@
+  `rev_minor_edit` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rev_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `rev_len` int(10) unsigned DEFAULT NULL,
   `rev_parent_id` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`rev_id`),
@@ -6,5 +8,3 @@
   KEY `page_timestamp` (`rev_page`,`rev_timestamp`),
   KEY `user_timestamp` (`rev_user`,`rev_timestamp`),
   KEY `usertext_timestamp` (`rev_user_text`,`rev_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=1878 DEFAULT CHARSET=binary MAX_ROWS=10000000 AVG_ROW_LENGTH=1024;
-/*!40101 SET character_set_client = @saved_cs_client */;

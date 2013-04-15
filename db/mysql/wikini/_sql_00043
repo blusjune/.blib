@@ -1,3 +1,5 @@
+  `log_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `log_type` varbinary(10) NOT NULL DEFAULT '',
   `log_action` varbinary(10) NOT NULL DEFAULT '',
   `log_timestamp` binary(14) NOT NULL DEFAULT '19700101000000',
   `log_user` int(10) unsigned NOT NULL DEFAULT '0',
@@ -6,5 +8,3 @@
   `log_comment` varbinary(255) NOT NULL DEFAULT '',
   `log_params` blob NOT NULL,
   `log_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  PRIMARY KEY (`log_id`),
-  KEY `type_time` (`log_type`,`log_timestamp`),

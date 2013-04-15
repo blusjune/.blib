@@ -1,3 +1,5 @@
+  `ipb_reason` tinyblob NOT NULL,
+  `ipb_timestamp` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
   `ipb_auto` tinyint(1) NOT NULL DEFAULT '0',
   `ipb_anon_only` tinyint(1) NOT NULL DEFAULT '0',
   `ipb_create_account` tinyint(1) NOT NULL DEFAULT '1',
@@ -6,5 +8,3 @@
   `ipb_range_start` tinyblob NOT NULL,
   `ipb_range_end` tinyblob NOT NULL,
   `ipb_deleted` tinyint(1) NOT NULL DEFAULT '0',
-  `ipb_block_email` tinyint(1) NOT NULL DEFAULT '0',
-  `ipb_allow_usertalk` tinyint(1) NOT NULL DEFAULT '0',

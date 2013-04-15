@@ -1,3 +1,4 @@
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `mw_categorylinks` (
   `cl_from` int(10) unsigned NOT NULL DEFAULT '0',
@@ -7,4 +8,3 @@ CREATE TABLE `mw_categorylinks` (
   UNIQUE KEY `cl_from` (`cl_from`,`cl_to`),
   KEY `cl_sortkey` (`cl_to`,`cl_sortkey`,`cl_from`),
   KEY `cl_timestamp` (`cl_to`,`cl_timestamp`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;

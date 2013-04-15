@@ -1,3 +1,5 @@
+  `tb_title` varbinary(255) NOT NULL,
+  `tb_url` blob NOT NULL,
   `tb_ex` blob,
   `tb_name` varbinary(255) DEFAULT NULL,
   PRIMARY KEY (`tb_id`),
@@ -5,6 +7,4 @@
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `mw_trackbacks`
 --

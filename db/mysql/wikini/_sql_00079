@@ -1,3 +1,5 @@
+  `rc_minor` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rc_bot` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `rc_new` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `rc_cur_id` int(10) unsigned NOT NULL DEFAULT '0',
   `rc_this_oldid` int(10) unsigned NOT NULL DEFAULT '0',
@@ -6,5 +8,3 @@
   `rc_moved_to_ns` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `rc_moved_to_title` varbinary(255) NOT NULL DEFAULT '',
   `rc_patrolled` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `rc_ip` varbinary(40) NOT NULL DEFAULT '',
-  `rc_old_len` int(11) DEFAULT NULL,

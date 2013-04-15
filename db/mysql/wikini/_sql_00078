@@ -1,3 +1,5 @@
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mw_recentchanges` (
   `rc_id` int(11) NOT NULL AUTO_INCREMENT,
   `rc_timestamp` varbinary(14) NOT NULL DEFAULT '',
   `rc_cur_time` varbinary(14) NOT NULL DEFAULT '',
@@ -6,5 +8,3 @@
   `rc_namespace` int(11) NOT NULL DEFAULT '0',
   `rc_title` varbinary(255) NOT NULL DEFAULT '',
   `rc_comment` varbinary(255) NOT NULL DEFAULT '',
-  `rc_minor` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `rc_bot` tinyint(3) unsigned NOT NULL DEFAULT '0',

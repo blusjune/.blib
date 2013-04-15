@@ -1,3 +1,5 @@
+
+--
 -- Dumping data for table `mw_page_props`
 --
 
@@ -6,5 +8,3 @@ LOCK TABLES `mw_page_props` WRITE;
 /*!40000 ALTER TABLE `mw_page_props` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Table structure for table `mw_page_restrictions`

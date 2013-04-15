@@ -1,6 +1,6 @@
   UNIQUE KEY `cat_title` (`cat_title`),
   KEY `cat_pages` (`cat_pages`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

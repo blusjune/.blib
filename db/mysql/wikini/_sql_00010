@@ -1,3 +1,4 @@
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -6,5 +7,4 @@
 
 LOCK TABLES `mw_categorylinks` WRITE;
 /*!40000 ALTER TABLE `mw_categorylinks` DISABLE KEYS */;
-/*!40000 ALTER TABLE `mw_categorylinks` ENABLE KEYS */;
-UNLOCK TABLES;
+INSERT INTO `mw_categorylinks` VALUES (104,'Sorting_algorithms',' ','2013-04-15 06:26:11');

@@ -1,3 +1,5 @@
+  `iw_url` blob NOT NULL,
+  `iw_local` tinyint(1) NOT NULL,
   `iw_trans` tinyint(4) NOT NULL DEFAULT '0',
   UNIQUE KEY `iw_prefix` (`iw_prefix`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
@@ -6,5 +8,3 @@
 --
 -- Dumping data for table `mw_interwiki`
 --
-
-LOCK TABLES `mw_interwiki` WRITE;
