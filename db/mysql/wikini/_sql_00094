@@ -6,5 +6,5 @@
 
 LOCK TABLES `mw_site_stats` WRITE;
 /*!40000 ALTER TABLE `mw_site_stats` DISABLE KEYS */;
-INSERT INTO `mw_site_stats` VALUES (1,2603,1913,18,103,2,-1,1,45);
+INSERT INTO `mw_site_stats` VALUES (1,2607,1914,18,103,2,-1,1,45);
 /*!40000 ALTER TABLE `mw_site_stats` ENABLE KEYS */;
