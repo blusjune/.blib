@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `mw_watchlist`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `mw_watchlist` (
@@ -7,4 +8,3 @@ CREATE TABLE `mw_watchlist` (
   `wl_notificationtimestamp` varbinary(14) DEFAULT NULL,
   UNIQUE KEY `wl_user` (`wl_user`,`wl_namespace`,`wl_title`),
   KEY `namespace_title` (`wl_namespace`,`wl_title`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;

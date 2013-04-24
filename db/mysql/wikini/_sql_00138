@@ -1,3 +1,4 @@
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -7,4 +8,3 @@
 LOCK TABLES `mw_watchlist` WRITE;
 /*!40000 ALTER TABLE `mw_watchlist` DISABLE KEYS */;
 /*!40000 ALTER TABLE `mw_watchlist` ENABLE KEYS */;
-UNLOCK TABLES;

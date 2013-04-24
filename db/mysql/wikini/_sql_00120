@@ -1,3 +1,4 @@
+--
 -- Dumping data for table `mw_trackbacks`
 --
 
@@ -7,4 +8,3 @@ LOCK TABLES `mw_trackbacks` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `mw_transcache`

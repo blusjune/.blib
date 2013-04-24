@@ -1,7 +1,7 @@
   UNIQUE KEY `name_title` (`page_namespace`,`page_title`),
   KEY `page_random` (`page_random`),
   KEY `page_len` (`page_len`)
-) ENGINE=InnoDB AUTO_INCREMENT=105 DEFAULT CHARSET=binary;
+) ENGINE=InnoDB AUTO_INCREMENT=110 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

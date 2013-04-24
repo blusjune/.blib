@@ -1,3 +1,4 @@
+  `tb_page` int(11) DEFAULT NULL,
   `tb_title` varbinary(255) NOT NULL,
   `tb_url` blob NOT NULL,
   `tb_ex` blob,
@@ -7,4 +8,3 @@
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---

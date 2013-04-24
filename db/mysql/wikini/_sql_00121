@@ -1,3 +1,4 @@
+-- Table structure for table `mw_transcache`
 --
 
 DROP TABLE IF EXISTS `mw_transcache`;
@@ -7,4 +8,3 @@ CREATE TABLE `mw_transcache` (
   `tc_url` varbinary(255) NOT NULL,
   `tc_contents` blob,
   `tc_time` int(11) NOT NULL,
-  UNIQUE KEY `tc_url_idx` (`tc_url`)

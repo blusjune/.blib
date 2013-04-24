@@ -1,3 +1,4 @@
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `mw_valid_tag` (
   `vt_tag` varbinary(255) NOT NULL,
   PRIMARY KEY (`vt_tag`)
@@ -7,4 +8,3 @@ CREATE TABLE `mw_valid_tag` (
 --
 -- Dumping data for table `mw_valid_tag`
 --
-
