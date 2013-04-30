@@ -1,10 +1,10 @@
+  `wl_title` varbinary(255) NOT NULL DEFAULT '',
+  `wl_notificationtimestamp` varbinary(14) DEFAULT NULL,
+  UNIQUE KEY `wl_user` (`wl_user`,`wl_namespace`,`wl_title`),
+  KEY `namespace_title` (`wl_namespace`,`wl_title`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
 -- Dumping data for table `mw_watchlist`
 --
-
-LOCK TABLES `mw_watchlist` WRITE;
-/*!40000 ALTER TABLE `mw_watchlist` DISABLE KEYS */;
-/*!40000 ALTER TABLE `mw_watchlist` ENABLE KEYS */;
