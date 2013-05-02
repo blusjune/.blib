@@ -1,3 +1,4 @@
+--
 -- Dumping data for table `mw_user_newtalk`
 --
 
@@ -7,4 +8,3 @@ LOCK TABLES `mw_user_newtalk` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `mw_valid_tag`

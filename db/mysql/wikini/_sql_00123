@@ -1,3 +1,4 @@
+-- Dumping data for table `mw_transcache`
 --
 
 LOCK TABLES `mw_transcache` WRITE;
@@ -7,4 +8,3 @@ UNLOCK TABLES;
 
 --
 -- Table structure for table `mw_updatelog`
---

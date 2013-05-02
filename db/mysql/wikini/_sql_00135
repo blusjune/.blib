@@ -1,3 +1,4 @@
+-- Table structure for table `mw_valid_tag`
 --
 
 DROP TABLE IF EXISTS `mw_valid_tag`;
@@ -7,4 +8,3 @@ CREATE TABLE `mw_valid_tag` (
   `vt_tag` varbinary(255) NOT NULL,
   PRIMARY KEY (`vt_tag`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;

@@ -1,3 +1,4 @@
+-- Table structure for table `mw_user_groups`
 --
 
 DROP TABLE IF EXISTS `mw_user_groups`;
@@ -7,4 +8,3 @@ CREATE TABLE `mw_user_groups` (
   `ug_user` int(10) unsigned NOT NULL DEFAULT '0',
   `ug_group` varbinary(16) NOT NULL DEFAULT '',
   UNIQUE KEY `ug_user_group` (`ug_user`,`ug_group`),
-  KEY `ug_group` (`ug_group`)
