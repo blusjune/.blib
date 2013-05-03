@@ -1,3 +1,4 @@
+-- Table structure for table `mw_updatelog`
 --
 
 DROP TABLE IF EXISTS `mw_updatelog`;
@@ -7,4 +8,3 @@ CREATE TABLE `mw_updatelog` (
   `ul_key` varbinary(255) NOT NULL,
   PRIMARY KEY (`ul_key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;

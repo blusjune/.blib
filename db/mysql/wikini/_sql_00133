@@ -1,3 +1,4 @@
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `mw_user_newtalk` (
   `user_id` int(11) NOT NULL DEFAULT '0',
@@ -7,4 +8,3 @@ CREATE TABLE `mw_user_newtalk` (
   KEY `user_ip` (`user_ip`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
-

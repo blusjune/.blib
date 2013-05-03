@@ -1,3 +1,4 @@
+LOCK TABLES `mw_trackbacks` WRITE;
 /*!40000 ALTER TABLE `mw_trackbacks` DISABLE KEYS */;
 /*!40000 ALTER TABLE `mw_trackbacks` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -7,4 +8,3 @@ UNLOCK TABLES;
 --
 
 DROP TABLE IF EXISTS `mw_transcache`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
