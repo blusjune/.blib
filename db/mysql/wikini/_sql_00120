@@ -1,3 +1,5 @@
+  `tb_url` blob NOT NULL,
+  `tb_ex` blob,
   `tb_name` varbinary(255) DEFAULT NULL,
   PRIMARY KEY (`tb_id`),
   KEY `tb_page` (`tb_page`)
@@ -6,5 +8,3 @@
 
 --
 -- Dumping data for table `mw_trackbacks`
---
-

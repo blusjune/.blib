@@ -1,3 +1,5 @@
+  `ug_user` int(10) unsigned NOT NULL DEFAULT '0',
+  `ug_group` varbinary(16) NOT NULL DEFAULT '',
   UNIQUE KEY `ug_user_group` (`ug_user`,`ug_group`),
   KEY `ug_group` (`ug_group`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
@@ -6,5 +8,3 @@
 --
 -- Dumping data for table `mw_user_groups`
 --
-
-LOCK TABLES `mw_user_groups` WRITE;

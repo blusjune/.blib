@@ -3,7 +3,7 @@
   KEY `user_time` (`log_user`,`log_timestamp`),
   KEY `page_time` (`log_namespace`,`log_title`,`log_timestamp`),
   KEY `times` (`log_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=78 DEFAULT CHARSET=binary;
+) ENGINE=InnoDB AUTO_INCREMENT=80 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
