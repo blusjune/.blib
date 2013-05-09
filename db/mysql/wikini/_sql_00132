@@ -1,3 +1,4 @@
+--
 
 LOCK TABLES `mw_user_groups` WRITE;
 /*!40000 ALTER TABLE `mw_user_groups` DISABLE KEYS */;
@@ -7,4 +8,3 @@ UNLOCK TABLES;
 
 --
 -- Table structure for table `mw_user_newtalk`
---

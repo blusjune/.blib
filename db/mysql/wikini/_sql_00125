@@ -1,3 +1,4 @@
+  `ul_key` varbinary(255) NOT NULL,
   PRIMARY KEY (`ul_key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -7,4 +8,3 @@
 --
 
 LOCK TABLES `mw_updatelog` WRITE;
-/*!40000 ALTER TABLE `mw_updatelog` DISABLE KEYS */;
