@@ -1,0 +1,10 @@
+-- Table structure for table `mw_math`
+--
+
+DROP TABLE IF EXISTS `mw_math`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mw_math` (
+  `math_inputhash` varbinary(16) NOT NULL,
+  `math_outputhash` varbinary(16) NOT NULL,
+  `math_html_conservativeness` tinyint(4) NOT NULL,

@@ -1,0 +1,10 @@
+  KEY `usertext_timestamp` (`rev_user_text`,`rev_timestamp`)
+) ENGINE=InnoDB AUTO_INCREMENT=2058 DEFAULT CHARSET=binary MAX_ROWS=10000000 AVG_ROW_LENGTH=1024;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mw_revision`
+--
+
+LOCK TABLES `mw_revision` WRITE;
+/*!40000 ALTER TABLE `mw_revision` DISABLE KEYS */;

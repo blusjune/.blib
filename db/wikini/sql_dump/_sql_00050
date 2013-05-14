@@ -1,0 +1,10 @@
+
+--
+-- Dumping data for table `mw_objectcache`
+--
+
+LOCK TABLES `mw_objectcache` WRITE;
+/*!40000 ALTER TABLE `mw_objectcache` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mw_objectcache` ENABLE KEYS */;
+UNLOCK TABLES;
+

@@ -1,0 +1,10 @@
+  PRIMARY KEY (`page_id`),
+  UNIQUE KEY `name_title` (`page_namespace`,`page_title`),
+  KEY `page_random` (`page_random`),
+  KEY `page_len` (`page_len`)
+) ENGINE=InnoDB AUTO_INCREMENT=130 DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mw_page`
+--

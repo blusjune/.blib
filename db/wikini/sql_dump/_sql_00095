@@ -1,0 +1,10 @@
+/*!40000 ALTER TABLE `mw_site_stats` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mw_tag_summary`
+--
+
+DROP TABLE IF EXISTS `mw_tag_summary`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;

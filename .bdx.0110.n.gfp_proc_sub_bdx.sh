@@ -3,6 +3,7 @@
 ##_ver=20130407_213621
 
 
-(cd db/mysql; _BDX)
+#(cd db/mysql; _BDX)
+(cd db/wikini; _BDX)
 
 

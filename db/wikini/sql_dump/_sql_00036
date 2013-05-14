@@ -1,0 +1,10 @@
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mw_ipblocks`
+--
+
+LOCK TABLES `mw_ipblocks` WRITE;
+/*!40000 ALTER TABLE `mw_ipblocks` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mw_ipblocks` ENABLE KEYS */;
+UNLOCK TABLES;

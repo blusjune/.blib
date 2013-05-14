@@ -1,0 +1,10 @@
+/*!40000 ALTER TABLE `mw_archive` DISABLE KEYS */;
+INSERT INTO `mw_archive` VALUES (0,'Bcode.python.cache.lru','','Created page with \"== Python Code ==  <nowiki>  class LRU_Cache(object):      def __init__(self, original_function, maxsize=1000):         self.original_function = original_function         self.ma…\"',2,'Blusjune','20130108093528',0,'',34,34,0,1513,6,NULL),(0,'Bcode.python.cache.lru','','/* Python Code */',2,'Blusjune','20130108093658',0,'',35,35,0,1514,6,NULL),(0,'Bcode.python.cache.lru','','/* Python Code */',2,'Blusjune','20130109002744',0,'',36,36,0,1529,6,NULL),(6,'Data_Placement_Architecture.PNG','','',2,'Blusjune','20130510114352',0,'',2032,2012,0,0,114,NULL),(6,'Data_Placement_Architecture_Collab.PNG','','',2,'Blusjune','20130510114410',0,'',2033,2013,0,0,115,NULL),(6,'Data_Skew_Aware_Selective_Approach.PNG','','',2,'Blusjune','20130510114528',0,'',2034,2014,0,0,116,NULL),(6,'Data_Skew_Aware_Selective_Approach_s001v002.PNG','','',2,'Blusjune','20130510114536',0,'',2035,2015,0,0,117,NULL),(6,'Event_Based_IO_Prediction_Model_s001.PNG','','',2,'Blusjune','20130510114550',0,'',2036,2016,0,0,118,NULL),(6,'Event_Based_IO_Prediction_Model_s001v001.PNG','','',2,'Blusjune','20130510114601',0,'',2037,2017,0,0,119,NULL);
+/*!40000 ALTER TABLE `mw_archive` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mw_category`
+--
+
+DROP TABLE IF EXISTS `mw_category`;
