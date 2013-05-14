@@ -1,3 +1,4 @@
+--
 -- Dumping data for table `mw_user_groups`
 --
 
@@ -7,4 +8,3 @@ INSERT INTO `mw_user_groups` VALUES (1,'bureaucrat'),(1,'sysop');
 /*!40000 ALTER TABLE `mw_user_groups` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
