@@ -1,0 +1,10 @@
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mw_user_groups` (
+  `ug_user` int(10) unsigned NOT NULL DEFAULT '0',
+  `ug_group` varbinary(16) NOT NULL DEFAULT '',
+  UNIQUE KEY `ug_user_group` (`ug_user`,`ug_group`),
+  KEY `ug_group` (`ug_group`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+

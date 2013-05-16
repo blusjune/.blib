@@ -1,0 +1,10 @@
+LOCK TABLES `mw_querycachetwo` WRITE;
+/*!40000 ALTER TABLE `mw_querycachetwo` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mw_querycachetwo` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mw_recentchanges`
+--
+
+DROP TABLE IF EXISTS `mw_recentchanges`;

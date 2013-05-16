@@ -1,0 +1,10 @@
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mw_trackbacks`
+--
+
+DROP TABLE IF EXISTS `mw_trackbacks`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mw_trackbacks` (
