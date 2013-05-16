@@ -7,4 +7,4 @@
 
 LOCK TABLES `mw_site_stats` WRITE;
 /*!40000 ALTER TABLE `mw_site_stats` DISABLE KEYS */;
-INSERT INTO `mw_site_stats` VALUES (1,3049,2112,18,131,2,-1,1,68);
+INSERT INTO `mw_site_stats` VALUES (1,3053,2113,18,131,2,-1,1,68);
