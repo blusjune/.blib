@@ -1,10 +1,10 @@
-
-LOCK TABLES `mw_updatelog` WRITE;
-/*!40000 ALTER TABLE `mw_updatelog` DISABLE KEYS */;
-/*!40000 ALTER TABLE `mw_updatelog` ENABLE KEYS */;
-UNLOCK TABLES;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mw_updatelog` (
+  `ul_key` varbinary(255) NOT NULL,
+  PRIMARY KEY (`ul_key`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Table structure for table `mw_user`
+-- Dumping data for table `mw_updatelog`
 --
-
