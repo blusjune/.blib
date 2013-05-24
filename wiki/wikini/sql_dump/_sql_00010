@@ -7,4 +7,4 @@
 
 LOCK TABLES `mw_categorylinks` WRITE;
 /*!40000 ALTER TABLE `mw_categorylinks` DISABLE KEYS */;
-INSERT INTO `mw_categorylinks` VALUES (104,'Sorting_algorithms',' ','2013-04-15 06:26:11');
+/*!40000 ALTER TABLE `mw_categorylinks` ENABLE KEYS */;

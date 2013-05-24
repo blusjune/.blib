@@ -1,4 +1,3 @@
-CREATE TABLE `mw_pagelinks` (
   `pl_from` int(10) unsigned NOT NULL DEFAULT '0',
   `pl_namespace` int(11) NOT NULL DEFAULT '0',
   `pl_title` varbinary(255) NOT NULL DEFAULT '',
@@ -8,3 +7,4 @@ CREATE TABLE `mw_pagelinks` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `mw_pagelinks`

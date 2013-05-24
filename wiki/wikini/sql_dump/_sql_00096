@@ -1,4 +1,3 @@
-CREATE TABLE `mw_tag_summary` (
   `ts_rc_id` int(11) DEFAULT NULL,
   `ts_log_id` int(11) DEFAULT NULL,
   `ts_rev_id` int(11) DEFAULT NULL,
@@ -8,3 +7,4 @@ CREATE TABLE `mw_tag_summary` (
   UNIQUE KEY `tag_summary_rev_id` (`ts_rev_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
+

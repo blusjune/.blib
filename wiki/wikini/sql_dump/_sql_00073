@@ -1,4 +1,3 @@
-CREATE TABLE `mw_querycache_info` (
   `qci_type` varbinary(32) NOT NULL DEFAULT '',
   `qci_timestamp` binary(14) NOT NULL DEFAULT '19700101000000',
   UNIQUE KEY `qci_type` (`qci_type`)
@@ -8,3 +7,4 @@ CREATE TABLE `mw_querycache_info` (
 --
 -- Dumping data for table `mw_querycache_info`
 --
+

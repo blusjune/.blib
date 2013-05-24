@@ -1,4 +1,3 @@
-  `page_namespace` int(11) NOT NULL,
   `page_title` varbinary(255) NOT NULL,
   `page_restrictions` tinyblob NOT NULL,
   `page_counter` bigint(20) unsigned NOT NULL DEFAULT '0',
@@ -8,3 +7,4 @@
   `page_touched` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
   `page_latest` int(10) unsigned NOT NULL,
   `page_len` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`page_id`),

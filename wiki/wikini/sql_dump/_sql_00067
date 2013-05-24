@@ -1,4 +1,3 @@
--- Table structure for table `mw_protected_titles`
 --
 
 DROP TABLE IF EXISTS `mw_protected_titles`;
@@ -8,3 +7,4 @@ CREATE TABLE `mw_protected_titles` (
   `pt_namespace` int(11) NOT NULL,
   `pt_title` varbinary(255) NOT NULL,
   `pt_user` int(10) unsigned NOT NULL,
+  `pt_reason` tinyblob,

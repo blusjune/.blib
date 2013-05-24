@@ -1,4 +1,3 @@
---
 
 LOCK TABLES `mw_hitcounter` WRITE;
 /*!40000 ALTER TABLE `mw_hitcounter` DISABLE KEYS */;
@@ -8,3 +7,4 @@ UNLOCK TABLES;
 --
 -- Table structure for table `mw_image`
 --
+

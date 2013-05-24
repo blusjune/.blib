@@ -1,4 +1,3 @@
---
 -- Table structure for table `mw_oldimage`
 --
 
@@ -8,3 +7,4 @@ DROP TABLE IF EXISTS `mw_oldimage`;
 CREATE TABLE `mw_oldimage` (
   `oi_name` varbinary(255) NOT NULL DEFAULT '',
   `oi_archive_name` varbinary(255) NOT NULL DEFAULT '',
+  `oi_size` int(10) unsigned NOT NULL DEFAULT '0',

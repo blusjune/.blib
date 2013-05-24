@@ -1,4 +1,3 @@
-  `iw_prefix` varbinary(32) NOT NULL,
   `iw_url` blob NOT NULL,
   `iw_local` tinyint(1) NOT NULL,
   `iw_trans` tinyint(4) NOT NULL DEFAULT '0',
@@ -8,3 +7,4 @@
 
 --
 -- Dumping data for table `mw_interwiki`
+--

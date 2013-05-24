@@ -1,4 +1,3 @@
-  `img_bits` int(11) NOT NULL DEFAULT '0',
   `img_media_type` enum('UNKNOWN','BITMAP','DRAWING','AUDIO','VIDEO','MULTIMEDIA','OFFICE','TEXT','EXECUTABLE','ARCHIVE') DEFAULT NULL,
   `img_major_mime` enum('unknown','application','audio','image','text','video','message','model','multipart') NOT NULL DEFAULT 'unknown',
   `img_minor_mime` varbinary(32) NOT NULL DEFAULT 'unknown',
@@ -8,3 +7,4 @@
   `img_timestamp` varbinary(14) NOT NULL DEFAULT '',
   `img_sha1` varbinary(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`img_name`),
+  KEY `img_usertext_timestamp` (`img_user_text`,`img_timestamp`),

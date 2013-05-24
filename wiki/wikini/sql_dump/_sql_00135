@@ -1,4 +1,3 @@
-  `user_last_timestamp` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
   KEY `user_id` (`user_id`),
   KEY `user_ip` (`user_ip`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
@@ -8,3 +7,4 @@
 -- Dumping data for table `mw_user_newtalk`
 --
 
+LOCK TABLES `mw_user_newtalk` WRITE;

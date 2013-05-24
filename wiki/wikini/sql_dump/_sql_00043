@@ -1,4 +1,3 @@
-CREATE TABLE `mw_logging` (
   `log_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `log_type` varbinary(10) NOT NULL DEFAULT '',
   `log_action` varbinary(10) NOT NULL DEFAULT '',
@@ -8,3 +7,4 @@ CREATE TABLE `mw_logging` (
   `log_title` varbinary(255) NOT NULL DEFAULT '',
   `log_comment` varbinary(255) NOT NULL DEFAULT '',
   `log_params` blob NOT NULL,
+  `log_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',

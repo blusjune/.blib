@@ -1,4 +1,3 @@
-  `pt_reason` tinyblob,
   `pt_timestamp` binary(14) NOT NULL,
   `pt_expiry` varbinary(14) NOT NULL DEFAULT '',
   `pt_create_perm` varbinary(60) NOT NULL,
@@ -8,3 +7,4 @@
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `mw_protected_titles`

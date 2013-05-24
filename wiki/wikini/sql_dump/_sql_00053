@@ -1,4 +1,3 @@
-  `oi_major_mime` enum('unknown','application','audio','image','text','video','message','model','multipart') NOT NULL DEFAULT 'unknown',
   `oi_minor_mime` varbinary(32) NOT NULL DEFAULT 'unknown',
   `oi_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `oi_sha1` varbinary(32) NOT NULL DEFAULT '',
@@ -8,3 +7,4 @@
   KEY `oi_sha1` (`oi_sha1`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
+

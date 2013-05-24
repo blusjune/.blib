@@ -1,4 +1,3 @@
-  `rev_timestamp` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
   `rev_minor_edit` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `rev_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `rev_len` int(10) unsigned DEFAULT NULL,
@@ -8,3 +7,4 @@
   KEY `rev_timestamp` (`rev_timestamp`),
   KEY `page_timestamp` (`rev_page`,`rev_timestamp`),
   KEY `user_timestamp` (`rev_user`,`rev_timestamp`),
+  KEY `usertext_timestamp` (`rev_user_text`,`rev_timestamp`)

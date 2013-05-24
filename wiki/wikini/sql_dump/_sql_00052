@@ -1,4 +1,3 @@
-  `oi_size` int(10) unsigned NOT NULL DEFAULT '0',
   `oi_width` int(11) NOT NULL DEFAULT '0',
   `oi_height` int(11) NOT NULL DEFAULT '0',
   `oi_bits` int(11) NOT NULL DEFAULT '0',
@@ -8,3 +7,4 @@
   `oi_timestamp` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
   `oi_metadata` mediumblob NOT NULL,
   `oi_media_type` enum('UNKNOWN','BITMAP','DRAWING','AUDIO','VIDEO','MULTIMEDIA','OFFICE','TEXT','EXECUTABLE','ARCHIVE') DEFAULT NULL,
+  `oi_major_mime` enum('unknown','application','audio','image','text','video','message','model','multipart') NOT NULL DEFAULT 'unknown',

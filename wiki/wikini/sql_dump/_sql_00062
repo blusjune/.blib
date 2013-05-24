@@ -1,4 +1,3 @@
-  `pr_type` varbinary(60) NOT NULL,
   `pr_level` varbinary(60) NOT NULL,
   `pr_cascade` tinyint(4) NOT NULL,
   `pr_user` int(11) DEFAULT NULL,
@@ -8,3 +7,4 @@
   UNIQUE KEY `pr_pagetype` (`pr_page`,`pr_type`),
   KEY `pr_typelevel` (`pr_type`,`pr_level`),
   KEY `pr_level` (`pr_level`),
+  KEY `pr_cascade` (`pr_cascade`)

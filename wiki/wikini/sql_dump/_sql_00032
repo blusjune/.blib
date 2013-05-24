@@ -1,4 +1,3 @@
---
 
 LOCK TABLES `mw_interwiki` WRITE;
 /*!40000 ALTER TABLE `mw_interwiki` DISABLE KEYS */;
@@ -8,3 +7,4 @@ UNLOCK TABLES;
 
 --
 -- Table structure for table `mw_ipblocks`
+--

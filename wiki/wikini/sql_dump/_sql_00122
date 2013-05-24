@@ -1,4 +1,3 @@
-
 --
 -- Dumping data for table `mw_trackbacks`
 --
@@ -8,3 +7,4 @@ LOCK TABLES `mw_trackbacks` WRITE;
 /*!40000 ALTER TABLE `mw_trackbacks` ENABLE KEYS */;
 UNLOCK TABLES;
 
+--

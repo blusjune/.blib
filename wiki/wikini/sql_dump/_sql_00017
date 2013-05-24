@@ -1,4 +1,3 @@
--- Table structure for table `mw_filearchive`
 --
 
 DROP TABLE IF EXISTS `mw_filearchive`;
@@ -8,3 +7,4 @@ CREATE TABLE `mw_filearchive` (
   `fa_id` int(11) NOT NULL AUTO_INCREMENT,
   `fa_name` varbinary(255) NOT NULL DEFAULT '',
   `fa_archive_name` varbinary(255) DEFAULT '',
+  `fa_storage_group` varbinary(16) DEFAULT NULL,

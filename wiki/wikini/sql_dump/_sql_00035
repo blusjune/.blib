@@ -1,4 +1,3 @@
-  `ipb_deleted` tinyint(1) NOT NULL DEFAULT '0',
   `ipb_block_email` tinyint(1) NOT NULL DEFAULT '0',
   `ipb_allow_usertalk` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`ipb_id`),
@@ -8,3 +7,4 @@
   KEY `ipb_timestamp` (`ipb_timestamp`),
   KEY `ipb_expiry` (`ipb_expiry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;

@@ -1,4 +1,3 @@
-  `ipb_by_text` varbinary(255) NOT NULL DEFAULT '',
   `ipb_reason` tinyblob NOT NULL,
   `ipb_timestamp` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
   `ipb_auto` tinyint(1) NOT NULL DEFAULT '0',
@@ -8,3 +7,4 @@
   `ipb_expiry` varbinary(14) NOT NULL DEFAULT '',
   `ipb_range_start` tinyblob NOT NULL,
   `ipb_range_end` tinyblob NOT NULL,
+  `ipb_deleted` tinyint(1) NOT NULL DEFAULT '0',
