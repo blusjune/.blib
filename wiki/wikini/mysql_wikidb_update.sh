@@ -1,5 +1,5 @@
 #!/bin/sh
-#_ver=20130524_185559;
+#_ver=20130527_222852;
 
 if [ ! -d tmp ]; then
 	if [ -d /x/t/share ]; then
@@ -12,7 +12,7 @@ _tstamp_file=$(ls -1 .tstamp.* | sed -e 's/\.tstamp\.\(.*\)/\1/g');
 _sql_wikidb="wikidb-${_tstamp_file}.sql";
 echo "#>> merging DB ...";
 cat sql_dump/_sql_* > tmp/$_sql_wikidb;
-echo "#>> drop and re-create wikidb ...";
-echo "drop database wikidb; create database wikidb;" | mysql -p -u root;
-echo "#>> import wikidb from $_sql_wikidb ...";
-mysql -p -u root wikidb < tmp/$_sql_wikidb;
+echo "#>> drop and re-create wikidb_radiohead ...";
+echo "drop database wikidb_radiohead; create database wikidb_radiohead;" | mysql -p -u root;
+echo "#>> import wikidb_radiohead from $_sql_wikidb ...";
+mysql -p -u root wikidb_radiohead < tmp/$_sql_wikidb;

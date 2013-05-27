@@ -1,10 +1,10 @@
+  KEY `qcc_titletwo` (`qcc_type`,`qcc_namespacetwo`,`qcc_titletwo`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `mw_site_stats`
+-- Dumping data for table `radiohead_querycachetwo`
 --
 
-LOCK TABLES `mw_site_stats` WRITE;
-/*!40000 ALTER TABLE `mw_site_stats` DISABLE KEYS */;
-INSERT INTO `mw_site_stats` VALUES (1,3263,2265,18,131,2,1,1,69);
-/*!40000 ALTER TABLE `mw_site_stats` ENABLE KEYS */;
+LOCK TABLES `radiohead_querycachetwo` WRITE;
+/*!40000 ALTER TABLE `radiohead_querycachetwo` DISABLE KEYS */;

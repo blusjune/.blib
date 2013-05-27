@@ -1,10 +1,10 @@
-  `iw_url` blob NOT NULL,
-  `iw_local` tinyint(1) NOT NULL,
-  `iw_trans` tinyint(4) NOT NULL DEFAULT '0',
-  UNIQUE KEY `iw_prefix` (`iw_prefix`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
+-- Table structure for table `radiohead_imagelinks`
+--
 
---
--- Dumping data for table `mw_interwiki`
---
+DROP TABLE IF EXISTS `radiohead_imagelinks`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_imagelinks` (
+  `il_from` int(10) unsigned NOT NULL DEFAULT '0',
+  `il_to` varbinary(255) NOT NULL DEFAULT '',
+  UNIQUE KEY `il_from` (`il_from`,`il_to`),

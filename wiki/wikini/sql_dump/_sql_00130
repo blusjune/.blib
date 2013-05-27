@@ -1,10 +1,10 @@
-  KEY `user_email_token` (`user_email_token`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `mw_user`
+-- Table structure for table `radiohead_updatelog`
 --
 
-LOCK TABLES `mw_user` WRITE;
-/*!40000 ALTER TABLE `mw_user` DISABLE KEYS */;
+DROP TABLE IF EXISTS `radiohead_updatelog`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_updatelog` (
+  `ul_key` varbinary(255) NOT NULL,

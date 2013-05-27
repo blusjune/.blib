@@ -1,10 +1,10 @@
-  `ts_rc_id` int(11) DEFAULT NULL,
-  `ts_log_id` int(11) DEFAULT NULL,
-  `ts_rev_id` int(11) DEFAULT NULL,
-  `ts_tags` blob NOT NULL,
-  UNIQUE KEY `tag_summary_rc_id` (`ts_rc_id`),
-  UNIQUE KEY `tag_summary_log_id` (`ts_log_id`),
-  UNIQUE KEY `tag_summary_rev_id` (`ts_rev_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
+CREATE TABLE `radiohead_recentchanges` (
+  `rc_id` int(11) NOT NULL AUTO_INCREMENT,
+  `rc_timestamp` varbinary(14) NOT NULL DEFAULT '',
+  `rc_cur_time` varbinary(14) NOT NULL DEFAULT '',
+  `rc_user` int(10) unsigned NOT NULL DEFAULT '0',
+  `rc_user_text` varbinary(255) NOT NULL,
+  `rc_namespace` int(11) NOT NULL DEFAULT '0',
+  `rc_title` varbinary(255) NOT NULL DEFAULT '',
+  `rc_comment` varbinary(255) NOT NULL DEFAULT '',
+  `rc_minor` tinyint(3) unsigned NOT NULL DEFAULT '0',

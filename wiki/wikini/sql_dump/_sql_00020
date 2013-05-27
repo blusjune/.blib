@@ -1,10 +1,10 @@
-  KEY `fa_deleted_timestamp` (`fa_deleted_timestamp`),
-  KEY `fa_user_timestamp` (`fa_user_text`,`fa_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
 --
--- Dumping data for table `mw_filearchive`
+-- Table structure for table `radiohead_filearchive`
 --
 
-LOCK TABLES `mw_filearchive` WRITE;
+DROP TABLE IF EXISTS `radiohead_filearchive`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_filearchive` (
+  `fa_id` int(11) NOT NULL AUTO_INCREMENT,
+  `fa_name` varbinary(255) NOT NULL DEFAULT '',

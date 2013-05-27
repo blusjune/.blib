@@ -1,10 +1,10 @@
-  `log_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `log_type` varbinary(10) NOT NULL DEFAULT '',
-  `log_action` varbinary(10) NOT NULL DEFAULT '',
-  `log_timestamp` binary(14) NOT NULL DEFAULT '19700101000000',
-  `log_user` int(10) unsigned NOT NULL DEFAULT '0',
-  `log_namespace` int(11) NOT NULL DEFAULT '0',
-  `log_title` varbinary(255) NOT NULL DEFAULT '',
-  `log_comment` varbinary(255) NOT NULL DEFAULT '',
-  `log_params` blob NOT NULL,
-  `log_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
+UNLOCK TABLES;
+
+--
+-- Table structure for table `radiohead_job`
+--
+
+DROP TABLE IF EXISTS `radiohead_job`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_job` (

@@ -1,10 +1,10 @@
---
+  KEY `ipb_user` (`ipb_user`),
+  KEY `ipb_range` (`ipb_range_start`(8),`ipb_range_end`(8)),
+  KEY `ipb_timestamp` (`ipb_timestamp`),
+  KEY `ipb_expiry` (`ipb_expiry`),
+  KEY `ipb_parent_block_id` (`ipb_parent_block_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
-LOCK TABLES `mw_job` WRITE;
-/*!40000 ALTER TABLE `mw_job` DISABLE KEYS */;
-/*!40000 ALTER TABLE `mw_job` ENABLE KEYS */;
-UNLOCK TABLES;
-
 --
--- Table structure for table `mw_langlinks`
---
+-- Dumping data for table `radiohead_ipblocks`

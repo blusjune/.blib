@@ -1,10 +1,10 @@
-/*!40000 ALTER TABLE `mw_category` DISABLE KEYS */;
-INSERT INTO `mw_category` VALUES (1,'Sorting_algorithms',0,0,0,0);
-/*!40000 ALTER TABLE `mw_category` ENABLE KEYS */;
+--
+
+LOCK TABLES `radiohead_category` WRITE;
+/*!40000 ALTER TABLE `radiohead_category` DISABLE KEYS */;
+INSERT INTO `radiohead_category` VALUES (1,'Pages_with_broken_file_links',4,0,0);
+/*!40000 ALTER TABLE `radiohead_category` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `mw_categorylinks`
---
-
-DROP TABLE IF EXISTS `mw_categorylinks`;
+-- Table structure for table `radiohead_categorylinks`

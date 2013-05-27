@@ -1,10 +1,10 @@
-  KEY `rc_namespace_title` (`rc_namespace`,`rc_title`),
-  KEY `rc_cur_id` (`rc_cur_id`),
-  KEY `new_name_timestamp` (`rc_new`,`rc_namespace`,`rc_timestamp`),
-  KEY `rc_ip` (`rc_ip`),
-  KEY `rc_ns_usertext` (`rc_namespace`,`rc_user_text`),
-  KEY `rc_user_text` (`rc_user_text`,`rc_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=2209 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `radiohead_page_restrictions`
+--
+
+LOCK TABLES `radiohead_page_restrictions` WRITE;
+/*!40000 ALTER TABLE `radiohead_page_restrictions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `radiohead_page_restrictions` ENABLE KEYS */;
+UNLOCK TABLES;

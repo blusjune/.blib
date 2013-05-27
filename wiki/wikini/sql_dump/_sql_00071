@@ -1,10 +1,10 @@
+  KEY `oi_usertext_timestamp` (`oi_user_text`,`oi_timestamp`),
+  KEY `oi_name_timestamp` (`oi_name`,`oi_timestamp`),
+  KEY `oi_name_archive_name` (`oi_name`,`oi_archive_name`(14)),
+  KEY `oi_sha1` (`oi_sha1`(10))
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `mw_querycache`
+-- Dumping data for table `radiohead_oldimage`
 --
-
-LOCK TABLES `mw_querycache` WRITE;
-/*!40000 ALTER TABLE `mw_querycache` DISABLE KEYS */;
-/*!40000 ALTER TABLE `mw_querycache` ENABLE KEYS */;

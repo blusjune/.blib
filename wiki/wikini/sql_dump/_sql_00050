@@ -1,10 +1,10 @@
---
--- Dumping data for table `mw_objectcache`
---
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_langlinks` (
+  `ll_from` int(10) unsigned NOT NULL DEFAULT '0',
+  `ll_lang` varbinary(20) NOT NULL DEFAULT '',
+  `ll_title` varbinary(255) NOT NULL DEFAULT '',
+  UNIQUE KEY `ll_from` (`ll_from`,`ll_lang`),
+  KEY `ll_lang` (`ll_lang`,`ll_title`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
-LOCK TABLES `mw_objectcache` WRITE;
-/*!40000 ALTER TABLE `mw_objectcache` DISABLE KEYS */;
-/*!40000 ALTER TABLE `mw_objectcache` ENABLE KEYS */;
-UNLOCK TABLES;
-
---

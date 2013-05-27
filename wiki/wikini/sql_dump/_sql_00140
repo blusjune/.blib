@@ -1,10 +1,10 @@
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
+/*!40000 ALTER TABLE `radiohead_user` DISABLE KEYS */;
+INSERT INTO `radiohead_user` VALUES (1,'Blusjune','',':B:b8d27f24:1f599feb903c95960eab5e5fe2ca4edb','',NULL,'brian.m.rose@gmail.com','20130527131959','1a1ddb13f80ced496fe91251d6e5cb67',NULL,NULL,NULL,'20130527123257',44);
+/*!40000 ALTER TABLE `radiohead_user` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
--- Dumping data for table `mw_watchlist`
+-- Table structure for table `radiohead_user_former_groups`
 --
 
-LOCK TABLES `mw_watchlist` WRITE;
-/*!40000 ALTER TABLE `mw_watchlist` DISABLE KEYS */;
-/*!40000 ALTER TABLE `mw_watchlist` ENABLE KEYS */;
+DROP TABLE IF EXISTS `radiohead_user_former_groups`;

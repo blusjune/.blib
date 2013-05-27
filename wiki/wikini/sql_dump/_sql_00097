@@ -1,10 +1,10 @@
---
--- Dumping data for table `mw_tag_summary`
---
-
-LOCK TABLES `mw_tag_summary` WRITE;
-/*!40000 ALTER TABLE `mw_tag_summary` DISABLE KEYS */;
-/*!40000 ALTER TABLE `mw_tag_summary` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
+  `rc_bot` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rc_new` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rc_cur_id` int(10) unsigned NOT NULL DEFAULT '0',
+  `rc_this_oldid` int(10) unsigned NOT NULL DEFAULT '0',
+  `rc_last_oldid` int(10) unsigned NOT NULL DEFAULT '0',
+  `rc_type` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rc_patrolled` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rc_ip` varbinary(40) NOT NULL DEFAULT '',
+  `rc_old_len` int(11) DEFAULT NULL,
+  `rc_new_len` int(11) DEFAULT NULL,

@@ -1,10 +1,10 @@
+  `cl_timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `cl_collation` varbinary(32) NOT NULL DEFAULT '',
+  `cl_type` enum('page','subcat','file') NOT NULL DEFAULT 'page',
+  UNIQUE KEY `cl_from` (`cl_from`,`cl_to`),
+  KEY `cl_sortkey` (`cl_to`,`cl_type`,`cl_sortkey`,`cl_from`),
+  KEY `cl_timestamp` (`cl_to`,`cl_timestamp`),
+  KEY `cl_collation` (`cl_collation`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `mw_categorylinks`
---
-
-LOCK TABLES `mw_categorylinks` WRITE;
-/*!40000 ALTER TABLE `mw_categorylinks` DISABLE KEYS */;
-/*!40000 ALTER TABLE `mw_categorylinks` ENABLE KEYS */;

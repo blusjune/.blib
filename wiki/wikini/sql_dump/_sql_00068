@@ -1,10 +1,10 @@
-  `pt_timestamp` binary(14) NOT NULL,
-  `pt_expiry` varbinary(14) NOT NULL DEFAULT '',
-  `pt_create_perm` varbinary(60) NOT NULL,
-  UNIQUE KEY `pt_namespace_title` (`pt_namespace`,`pt_title`),
-  KEY `pt_timestamp` (`pt_timestamp`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
+LOCK TABLES `radiohead_objectcache` WRITE;
+/*!40000 ALTER TABLE `radiohead_objectcache` DISABLE KEYS */;
+INSERT INTO `radiohead_objectcache` VALUES ('wikidb_radiohead-radiohead_:pcache:idhash:1-0!*!*!*!*!*!*','½VİnÛ6îµŸ‚Õ.°eËqÒ2²€\"k›\0qã!ézĞÒ±M„\"’Šãö{Æ=ÉÎ¡eGvÛ­X‡&Al?~çï£®ø áÑTXöªöUí#><âxTŞÀƒN¡UZeé,›@!Åy\'ÙR86ĞÌÕyÎÍk¥ÖLjç…RPôÒx–uÒ½ªìÌhW+ÏüX*˜5´™¥Ì*b^Øøqt;SBßE,WÂ¹q„§ƒÕB1O8ØÒÂ|Åq	^ôVˆ $(=c1=Åç *yĞŞEÙ{LégÇŞÖ²€4›‹èğ)¼4šá_í¤^P93÷+a¡`wÒe’¥åŠã1ŞAœ*±€q4R³)~X£Gƒ({ŞS@¬€õP¤ñ¾sÆRW	½M¯\\u— \n%5†‘Å8jÜo÷(cY\ZS€,Y\'­U–*™}wAW«U/Ô’ŠğTÏ‰ĞµPTÑ¹\\Ô6íÖma}÷äl+gJ:OåÆ\"¶€ïÍ«ß¢ÖTâãÿzüÒûÊñ8¦¼ÜÁØ•BªRè £ÉŠw(»BkSëÚĞŒÜ¨«?®T—&xZhÕO7Vh§6í´àLmq{£¬±ö˜6fz†G/j÷Ú§¯ÓIŸw»¬óVÓ)¦SJğ+c}gŠŸÖ-`Œ{é$¯6°ëâ9Æƒ~øÙ7]€©ãOÆÆù¿şøp\n\\ç\\ÕhæäGà¬\'ı—\'ƒQÂfk®se…yÃÖ%²ÂWìÎåb	Î³ÔÑ4Pù%gI|Ôï¼~¨\0¥÷€»O4ÉæØ×0ó\r¸>ët»Ûr\\‹{ h[û\\ä`ü’İÁ:0M1»µ¢†ö¿»ûvË«`ËeÜºäƒnÿù/O¿Œ2ö8~ÈeÅ’ş`Ø%\'ƒd˜ŒN¿áj$îË¦_—Rß¹èTğ>ü„ºêÎ°\"c%´}b{él)ÿ%o‘>SÔƒhÁ©©q[´äEKs‚Š‹#¶­_ ğTp\rÂæË«ŠJÛÖS>¯›iß!Ñ5DßzœJ>À4FGü¿^a8ú÷DIùñ7…l±¿ü‡“¿aÃCª(]íXK_\ZÜçëÍ•Îxÿ´ñ9Ç›ô*\Zƒwæ-]úv½\'=Ç¡¾ğP¶âS·\'¦¨öx#½Î­¬|[7|Òùõ¾Ûh§š {ÌMáæ•æÜ˜vŠXÆòƒ°zÓÕ¶´É,HüQb&?ØŞä\nîAíÚÁ£æãQBŸ˜G¸Î›Š\\ßÍéºœmÜÑ&”Ô<´eˆgnMéi)[y»]H*0Ñ—™ÏqD¨ãds€ĞùÒØ»·ŠÓOÛ­{¯&MÊ7æ(ïYH-ÁÔš\n¬ßã	òº¹:;¿™\\Rx„°…‚ìÑÓ–„öù‰¤	b{Ö~×|†cˆiO’ùºpØÿÌğUxÅ„â3~ }<°ÅœŒ.„]ÿ*¼x_ûô”¼øÌè%?9ìgû;X†=tiĞ;îíR>#²¦¼¿r˜Â`‡×ˆ¤õxGR\"B¢&l¨»RÅD,d¾ÙœO','2013-05-28 12:32:57'),('wikidb_radiohead-radiohead_:pcache:idoptions:1','EÁ\nÂ0Dÿe? lÒ¤©›£x”\\Ô{lƒ.Ø´4=(¥ÿn\"oÃ{3Œ£ÁÑwÏpá!\0iZµÃ-Ì‰Ç6e¢j*U²ÀìşıBDQ£–FÈZjó£rïŞÏ°Lm£‹3Åqñ“{õgÿàìp^Sèİ´äÿÖÒºm_','2013-05-28 12:32:57');
+/*!40000 ALTER TABLE `radiohead_objectcache` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
--- Dumping data for table `mw_protected_titles`
+-- Table structure for table `radiohead_oldimage`
+--
+

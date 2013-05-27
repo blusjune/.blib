@@ -1,2 +1,10 @@
+-- Dumping data for table `radiohead_user_former_groups`
+--
 
--- Dump completed on 2013-05-24 18:56:04
+LOCK TABLES `radiohead_user_former_groups` WRITE;
+/*!40000 ALTER TABLE `radiohead_user_former_groups` DISABLE KEYS */;
+/*!40000 ALTER TABLE `radiohead_user_former_groups` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `radiohead_user_groups`

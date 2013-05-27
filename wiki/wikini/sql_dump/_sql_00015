@@ -1,10 +1,10 @@
-  `el_to` blob NOT NULL,
-  `el_index` blob NOT NULL,
-  KEY `el_from` (`el_from`,`el_to`(40)),
-  KEY `el_to` (`el_to`(60),`el_from`),
-  KEY `el_index` (`el_index`(60))
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
+-- Table structure for table `radiohead_external_user`
 --
--- Dumping data for table `mw_externallinks`
+
+DROP TABLE IF EXISTS `radiohead_external_user`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_external_user` (
+  `eu_local_id` int(10) unsigned NOT NULL,
+  `eu_external_id` varbinary(255) NOT NULL,
+  PRIMARY KEY (`eu_local_id`),

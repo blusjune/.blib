@@ -1,10 +1,10 @@
-  `ss_total_views` bigint(20) unsigned DEFAULT '0',
-  `ss_total_edits` bigint(20) unsigned DEFAULT '0',
-  `ss_good_articles` bigint(20) unsigned DEFAULT '0',
-  `ss_total_pages` bigint(20) DEFAULT '-1',
-  `ss_users` bigint(20) DEFAULT '-1',
-  `ss_active_users` bigint(20) DEFAULT '-1',
-  `ss_admins` int(11) DEFAULT '-1',
-  `ss_images` int(11) DEFAULT '0',
-  UNIQUE KEY `ss_row_id` (`ss_row_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_querycachetwo` (
+  `qcc_type` varbinary(32) NOT NULL,
+  `qcc_value` int(10) unsigned NOT NULL DEFAULT '0',
+  `qcc_namespace` int(11) NOT NULL DEFAULT '0',
+  `qcc_title` varbinary(255) NOT NULL DEFAULT '',
+  `qcc_namespacetwo` int(11) NOT NULL DEFAULT '0',
+  `qcc_titletwo` varbinary(255) NOT NULL DEFAULT '',
+  KEY `qcc_type` (`qcc_type`,`qcc_value`),
+  KEY `qcc_title` (`qcc_type`,`qcc_namespace`,`qcc_title`),

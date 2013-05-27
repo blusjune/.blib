@@ -1,10 +1,10 @@
-  UNIQUE KEY `name_title` (`page_namespace`,`page_title`),
-  KEY `page_random` (`page_random`),
-  KEY `page_len` (`page_len`)
-) ENGINE=InnoDB AUTO_INCREMENT=142 DEFAULT CHARSET=binary;
+  KEY `log_page_id_time` (`log_page`,`log_timestamp`),
+  KEY `type_action` (`log_type`,`log_action`,`log_timestamp`)
+) ENGINE=InnoDB AUTO_INCREMENT=46 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `mw_page`
+-- Dumping data for table `radiohead_logging`
 --
 
+LOCK TABLES `radiohead_logging` WRITE;

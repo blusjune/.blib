@@ -1,10 +1,10 @@
-DROP TABLE IF EXISTS `mw_image`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `mw_image` (
-  `img_name` varbinary(255) NOT NULL DEFAULT '',
-  `img_size` int(10) unsigned NOT NULL DEFAULT '0',
-  `img_width` int(11) NOT NULL DEFAULT '0',
-  `img_height` int(11) NOT NULL DEFAULT '0',
-  `img_metadata` mediumblob NOT NULL,
-  `img_bits` int(11) NOT NULL DEFAULT '0',
+-- Dumping data for table `radiohead_filearchive`
+--
+
+LOCK TABLES `radiohead_filearchive` WRITE;
+/*!40000 ALTER TABLE `radiohead_filearchive` DISABLE KEYS */;
+/*!40000 ALTER TABLE `radiohead_filearchive` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `radiohead_hitcounter`

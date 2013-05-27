@@ -1,10 +1,10 @@
-DROP TABLE IF EXISTS `mw_imagelinks`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `mw_imagelinks` (
-  `il_from` int(10) unsigned NOT NULL DEFAULT '0',
-  `il_to` varbinary(255) NOT NULL DEFAULT '',
-  UNIQUE KEY `il_from` (`il_from`,`il_to`),
-  UNIQUE KEY `il_to` (`il_to`,`il_from`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
+  `img_height` int(11) NOT NULL DEFAULT '0',
+  `img_metadata` mediumblob NOT NULL,
+  `img_bits` int(11) NOT NULL DEFAULT '0',
+  `img_media_type` enum('UNKNOWN','BITMAP','DRAWING','AUDIO','VIDEO','MULTIMEDIA','OFFICE','TEXT','EXECUTABLE','ARCHIVE') DEFAULT NULL,
+  `img_major_mime` enum('unknown','application','audio','image','text','video','message','model','multipart') NOT NULL DEFAULT 'unknown',
+  `img_minor_mime` varbinary(100) NOT NULL DEFAULT 'unknown',
+  `img_description` tinyblob NOT NULL,
+  `img_user` int(10) unsigned NOT NULL DEFAULT '0',
+  `img_user_text` varbinary(255) NOT NULL,
+  `img_timestamp` varbinary(14) NOT NULL DEFAULT '',

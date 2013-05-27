@@ -1,10 +1,10 @@
-  `rc_minor` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `rc_bot` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `rc_new` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `rc_cur_id` int(10) unsigned NOT NULL DEFAULT '0',
-  `rc_this_oldid` int(10) unsigned NOT NULL DEFAULT '0',
-  `rc_last_oldid` int(10) unsigned NOT NULL DEFAULT '0',
-  `rc_type` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `rc_moved_to_ns` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `rc_moved_to_title` varbinary(255) NOT NULL DEFAULT '',
-  `rc_patrolled` tinyint(3) unsigned NOT NULL DEFAULT '0',
+-- Table structure for table `radiohead_page_restrictions`
+--
+
+DROP TABLE IF EXISTS `radiohead_page_restrictions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_page_restrictions` (
+  `pr_page` int(11) NOT NULL,
+  `pr_type` varbinary(60) NOT NULL,
+  `pr_level` varbinary(60) NOT NULL,

@@ -1,10 +1,10 @@
-  `fa_storage_key` varbinary(64) DEFAULT '',
-  `fa_deleted_user` int(11) DEFAULT NULL,
-  `fa_deleted_timestamp` binary(14) DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
-  `fa_deleted_reason` blob,
-  `fa_size` int(10) unsigned DEFAULT '0',
-  `fa_width` int(11) DEFAULT '0',
-  `fa_height` int(11) DEFAULT '0',
-  `fa_metadata` mediumblob,
-  `fa_bits` int(11) DEFAULT '0',
-  `fa_media_type` enum('UNKNOWN','BITMAP','DRAWING','AUDIO','VIDEO','MULTIMEDIA','OFFICE','TEXT','EXECUTABLE','ARCHIVE') DEFAULT NULL,
+CREATE TABLE `radiohead_externallinks` (
+  `el_from` int(10) unsigned NOT NULL DEFAULT '0',
+  `el_to` blob NOT NULL,
+  `el_index` blob NOT NULL,
+  KEY `el_from` (`el_from`,`el_to`(40)),
+  KEY `el_to` (`el_to`(60),`el_from`),
+  KEY `el_index` (`el_index`(60))
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+

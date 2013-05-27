@@ -1,10 +1,10 @@
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `mw_hitcounter` (
-  `hc_id` int(10) unsigned NOT NULL
-) ENGINE=MEMORY DEFAULT CHARSET=latin1 MAX_ROWS=25000;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `mw_hitcounter`
---
+  `fa_bits` int(11) DEFAULT '0',
+  `fa_media_type` enum('UNKNOWN','BITMAP','DRAWING','AUDIO','VIDEO','MULTIMEDIA','OFFICE','TEXT','EXECUTABLE','ARCHIVE') DEFAULT NULL,
+  `fa_major_mime` enum('unknown','application','audio','image','text','video','message','model','multipart') DEFAULT 'unknown',
+  `fa_minor_mime` varbinary(100) DEFAULT 'unknown',
+  `fa_description` tinyblob,
+  `fa_user` int(10) unsigned DEFAULT '0',
+  `fa_user_text` varbinary(255) DEFAULT NULL,
+  `fa_timestamp` binary(14) DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
+  `fa_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `fa_sha1` varbinary(32) NOT NULL DEFAULT '',

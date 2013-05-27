@@ -1,10 +1,10 @@
-  PRIMARY KEY (`log_id`),
-  KEY `type_time` (`log_type`,`log_timestamp`),
-  KEY `user_time` (`log_user`,`log_timestamp`),
-  KEY `page_time` (`log_namespace`,`log_title`,`log_timestamp`),
-  KEY `times` (`log_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=115 DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `mw_logging`
+  `job_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `job_cmd` varbinary(60) NOT NULL DEFAULT '',
+  `job_namespace` int(11) NOT NULL,
+  `job_title` varbinary(255) NOT NULL,
+  `job_timestamp` varbinary(14) DEFAULT NULL,
+  `job_params` blob NOT NULL,
+  `job_random` int(10) unsigned NOT NULL DEFAULT '0',
+  `job_attempts` int(10) unsigned NOT NULL DEFAULT '0',
+  `job_token` varbinary(32) NOT NULL DEFAULT '',
+  `job_token_timestamp` varbinary(14) DEFAULT NULL,

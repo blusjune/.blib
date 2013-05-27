@@ -1,10 +1,10 @@
-  `ipb_reason` tinyblob NOT NULL,
-  `ipb_timestamp` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
-  `ipb_auto` tinyint(1) NOT NULL DEFAULT '0',
-  `ipb_anon_only` tinyint(1) NOT NULL DEFAULT '0',
-  `ipb_create_account` tinyint(1) NOT NULL DEFAULT '1',
-  `ipb_enable_autoblock` tinyint(1) NOT NULL DEFAULT '1',
-  `ipb_expiry` varbinary(14) NOT NULL DEFAULT '',
-  `ipb_range_start` tinyblob NOT NULL,
-  `ipb_range_end` tinyblob NOT NULL,
-  `ipb_deleted` tinyint(1) NOT NULL DEFAULT '0',
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_interwiki` (
+  `iw_prefix` varbinary(32) NOT NULL,
+  `iw_url` blob NOT NULL,
+  `iw_api` blob NOT NULL,
+  `iw_wikiid` varbinary(64) NOT NULL,
+  `iw_local` tinyint(1) NOT NULL,
+  `iw_trans` tinyint(4) NOT NULL DEFAULT '0',
+  UNIQUE KEY `iw_prefix` (`iw_prefix`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;

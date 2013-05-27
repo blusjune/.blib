@@ -1,10 +1,10 @@
+  `ar_sha1` varbinary(32) NOT NULL DEFAULT '',
+  `ar_content_model` varbinary(32) DEFAULT NULL,
+  `ar_content_format` varbinary(64) DEFAULT NULL,
   KEY `name_title_timestamp` (`ar_namespace`,`ar_title`,`ar_timestamp`),
-  KEY `usertext_timestamp` (`ar_user_text`,`ar_timestamp`)
+  KEY `usertext_timestamp` (`ar_user_text`,`ar_timestamp`),
+  KEY `ar_revid` (`ar_rev_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `mw_archive`
---
-
-LOCK TABLES `mw_archive` WRITE;
