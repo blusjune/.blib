@@ -1,7 +1,7 @@
   KEY `rc_ip` (`rc_ip`),
   KEY `rc_ns_usertext` (`rc_namespace`,`rc_user_text`),
   KEY `rc_user_text` (`rc_user_text`,`rc_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=binary;
+) ENGINE=InnoDB AUTO_INCREMENT=65 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
