@@ -1,10 +1,10 @@
+  PRIMARY KEY (`old_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=102 DEFAULT CHARSET=binary MAX_ROWS=10000000 AVG_ROW_LENGTH=10240;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `radiohead_transcache`
+-- Dumping data for table `radiohead_text`
 --
 
-LOCK TABLES `radiohead_transcache` WRITE;
-/*!40000 ALTER TABLE `radiohead_transcache` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_transcache` ENABLE KEYS */;
-UNLOCK TABLES;
+LOCK TABLES `radiohead_text` WRITE;
+/*!40000 ALTER TABLE `radiohead_text` DISABLE KEYS */;

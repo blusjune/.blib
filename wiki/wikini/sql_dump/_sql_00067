@@ -1,10 +1,10 @@
-  `exptime` datetime DEFAULT NULL,
-  PRIMARY KEY (`keyname`),
-  KEY `exptime` (`exptime`)
+CREATE TABLE `radiohead_msg_resource_links` (
+  `mrl_resource` varbinary(255) NOT NULL,
+  `mrl_message` varbinary(255) NOT NULL,
+  UNIQUE KEY `mrl_message_resource` (`mrl_message`,`mrl_resource`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `radiohead_objectcache`
+-- Dumping data for table `radiohead_msg_resource_links`
 --
-

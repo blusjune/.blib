@@ -1,10 +1,10 @@
-  `site_group` varbinary(32) NOT NULL,
-  `site_source` varbinary(32) NOT NULL,
-  `site_language` varbinary(32) NOT NULL,
-  `site_protocol` varbinary(32) NOT NULL,
-  `site_domain` varbinary(255) NOT NULL,
-  `site_data` blob NOT NULL,
-  `site_forward` tinyint(1) NOT NULL,
-  `site_config` blob NOT NULL,
-  PRIMARY KEY (`site_id`),
-  UNIQUE KEY `sites_global_key` (`site_global_key`),
+  `ss_active_users` bigint(20) DEFAULT '-1',
+  `ss_images` int(11) DEFAULT '0',
+  UNIQUE KEY `ss_row_id` (`ss_row_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `radiohead_site_stats`
+--
+

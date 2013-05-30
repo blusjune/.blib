@@ -1,10 +1,10 @@
-CREATE TABLE `radiohead_site_identifiers` (
-  `si_site` int(10) unsigned NOT NULL,
-  `si_type` varbinary(32) NOT NULL,
-  `si_key` varbinary(32) NOT NULL,
-  UNIQUE KEY `site_ids_type` (`si_type`,`si_key`),
-  KEY `site_ids_site` (`si_site`),
-  KEY `site_ids_key` (`si_key`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
+  `si_page` int(10) unsigned NOT NULL,
+  `si_title` varchar(255) NOT NULL DEFAULT '',
+  `si_text` mediumtext NOT NULL,
+  UNIQUE KEY `si_page` (`si_page`),
+  FULLTEXT KEY `si_title` (`si_title`),
+  FULLTEXT KEY `si_text` (`si_text`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+--

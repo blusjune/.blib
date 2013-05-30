@@ -1,10 +1,10 @@
-
-LOCK TABLES `radiohead_uploadstash` WRITE;
-/*!40000 ALTER TABLE `radiohead_uploadstash` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_uploadstash` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `radiohead_user`
---
-
+CREATE TABLE `radiohead_uploadstash` (
+  `us_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `us_user` int(10) unsigned NOT NULL,
+  `us_key` varbinary(255) NOT NULL,
+  `us_orig_path` varbinary(255) NOT NULL,
+  `us_path` varbinary(255) NOT NULL,
+  `us_source_type` varbinary(50) DEFAULT NULL,
+  `us_timestamp` varbinary(14) NOT NULL,
+  `us_status` varbinary(50) NOT NULL,
+  `us_chunk_inx` int(10) unsigned DEFAULT NULL,

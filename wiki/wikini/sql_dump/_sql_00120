@@ -1,10 +1,10 @@
--- Table structure for table `radiohead_tag_summary`
---
-
-DROP TABLE IF EXISTS `radiohead_tag_summary`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `radiohead_tag_summary` (
-  `ts_rc_id` int(11) DEFAULT NULL,
-  `ts_log_id` int(11) DEFAULT NULL,
-  `ts_rev_id` int(11) DEFAULT NULL,
+  `site_protocol` varbinary(32) NOT NULL,
+  `site_domain` varbinary(255) NOT NULL,
+  `site_data` blob NOT NULL,
+  `site_forward` tinyint(1) NOT NULL,
+  `site_config` blob NOT NULL,
+  PRIMARY KEY (`site_id`),
+  UNIQUE KEY `sites_global_key` (`site_global_key`),
+  KEY `sites_type` (`site_type`),
+  KEY `sites_group` (`site_group`),
+  KEY `sites_source` (`site_source`),

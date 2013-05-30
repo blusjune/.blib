@@ -1,10 +1,10 @@
-  `pr_cascade` tinyint(4) NOT NULL,
-  `pr_user` int(11) DEFAULT NULL,
-  `pr_expiry` varbinary(14) DEFAULT NULL,
-  `pr_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (`pr_id`),
-  UNIQUE KEY `pr_pagetype` (`pr_page`,`pr_type`),
-  KEY `pr_typelevel` (`pr_type`,`pr_level`),
-  KEY `pr_level` (`pr_level`),
-  KEY `pr_cascade` (`pr_cascade`)
+  `pp_value` blob NOT NULL,
+  UNIQUE KEY `pp_page_propname` (`pp_page`,`pp_propname`),
+  UNIQUE KEY `pp_propname_page` (`pp_propname`,`pp_page`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `radiohead_page_props`
+--
+

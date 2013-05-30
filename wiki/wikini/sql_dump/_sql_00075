@@ -1,10 +1,10 @@
-  KEY `page_redirect_namespace_len` (`page_is_redirect`,`page_namespace`,`page_len`)
-) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
+UNLOCK TABLES;
 
 --
--- Dumping data for table `radiohead_page`
+-- Table structure for table `radiohead_page`
 --
 
-LOCK TABLES `radiohead_page` WRITE;
-/*!40000 ALTER TABLE `radiohead_page` DISABLE KEYS */;
+DROP TABLE IF EXISTS `radiohead_page`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_page` (

@@ -1,10 +1,10 @@
-/*!40000 ALTER TABLE `radiohead_searchindex` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `radiohead_site_identifiers`
+-- Table structure for table `radiohead_searchindex`
 --
 
-DROP TABLE IF EXISTS `radiohead_site_identifiers`;
+DROP TABLE IF EXISTS `radiohead_searchindex`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_searchindex` (

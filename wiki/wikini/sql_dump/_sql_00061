@@ -1,10 +1,10 @@
+UNLOCK TABLES;
+
 --
--- Table structure for table `radiohead_msg_resource`
+-- Table structure for table `radiohead_module_deps`
 --
 
-DROP TABLE IF EXISTS `radiohead_msg_resource`;
+DROP TABLE IF EXISTS `radiohead_module_deps`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `radiohead_msg_resource` (
-  `mr_resource` varbinary(255) NOT NULL,
-  `mr_lang` varbinary(32) NOT NULL,
+CREATE TABLE `radiohead_module_deps` (

@@ -1,10 +1,10 @@
-  `page_is_new` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `page_random` double unsigned NOT NULL,
-  `page_touched` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
-  `page_latest` int(10) unsigned NOT NULL,
-  `page_len` int(10) unsigned NOT NULL,
-  `page_content_model` varbinary(32) DEFAULT NULL,
-  PRIMARY KEY (`page_id`),
-  UNIQUE KEY `name_title` (`page_namespace`,`page_title`),
-  KEY `page_random` (`page_random`),
-  KEY `page_len` (`page_len`),
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `radiohead_oldimage`
+--
+
+LOCK TABLES `radiohead_oldimage` WRITE;
+/*!40000 ALTER TABLE `radiohead_oldimage` DISABLE KEYS */;
+/*!40000 ALTER TABLE `radiohead_oldimage` ENABLE KEYS */;

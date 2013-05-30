@@ -1,10 +1,10 @@
 
-LOCK TABLES `radiohead_tag_summary` WRITE;
-/*!40000 ALTER TABLE `radiohead_tag_summary` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_tag_summary` ENABLE KEYS */;
+LOCK TABLES `radiohead_sites` WRITE;
+/*!40000 ALTER TABLE `radiohead_sites` DISABLE KEYS */;
+/*!40000 ALTER TABLE `radiohead_sites` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `radiohead_templatelinks`
+-- Table structure for table `radiohead_tag_summary`
 --
 

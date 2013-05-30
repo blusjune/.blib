@@ -1,10 +1,10 @@
-DROP TABLE IF EXISTS `radiohead_user`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `radiohead_user` (
-  `user_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `user_name` varbinary(255) NOT NULL DEFAULT '',
-  `user_real_name` varbinary(255) NOT NULL DEFAULT '',
-  `user_password` tinyblob NOT NULL,
-  `user_newpassword` tinyblob NOT NULL,
-  `user_newpass_time` binary(14) DEFAULT NULL,
+  `us_props` blob,
+  `us_size` int(10) unsigned NOT NULL,
+  `us_sha1` varbinary(31) NOT NULL,
+  `us_mime` varbinary(255) DEFAULT NULL,
+  `us_media_type` enum('UNKNOWN','BITMAP','DRAWING','AUDIO','VIDEO','MULTIMEDIA','OFFICE','TEXT','EXECUTABLE','ARCHIVE') DEFAULT NULL,
+  `us_image_width` int(10) unsigned DEFAULT NULL,
+  `us_image_height` int(10) unsigned DEFAULT NULL,
+  `us_image_bits` smallint(5) unsigned DEFAULT NULL,
+  PRIMARY KEY (`us_id`),
+  UNIQUE KEY `us_key` (`us_key`),

@@ -1,10 +1,10 @@
-  `qci_timestamp` binary(14) NOT NULL DEFAULT '19700101000000',
-  UNIQUE KEY `qci_type` (`qci_type`)
+  `qc_type` varbinary(32) NOT NULL,
+  `qc_value` int(10) unsigned NOT NULL DEFAULT '0',
+  `qc_namespace` int(11) NOT NULL DEFAULT '0',
+  `qc_title` varbinary(255) NOT NULL DEFAULT '',
+  KEY `qc_type` (`qc_type`,`qc_value`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `radiohead_querycache_info`
---
-
-LOCK TABLES `radiohead_querycache_info` WRITE;
+-- Dumping data for table `radiohead_querycache`

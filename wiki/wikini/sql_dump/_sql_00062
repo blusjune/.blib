@@ -1,10 +1,10 @@
-  `mr_blob` mediumblob NOT NULL,
-  `mr_timestamp` binary(14) NOT NULL,
-  UNIQUE KEY `mr_resource_lang` (`mr_resource`,`mr_lang`)
+  `md_module` varbinary(255) NOT NULL,
+  `md_skin` varbinary(32) NOT NULL,
+  `md_deps` mediumblob NOT NULL,
+  UNIQUE KEY `md_module_skin` (`md_module`,`md_skin`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `radiohead_msg_resource`
+-- Dumping data for table `radiohead_module_deps`
 --
-

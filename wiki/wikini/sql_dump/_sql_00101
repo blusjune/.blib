@@ -1,10 +1,10 @@
-DROP TABLE IF EXISTS `radiohead_redirect`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `radiohead_redirect` (
-  `rd_from` int(10) unsigned NOT NULL DEFAULT '0',
-  `rd_namespace` int(11) NOT NULL DEFAULT '0',
-  `rd_title` varbinary(255) NOT NULL DEFAULT '',
-  `rd_interwiki` varbinary(32) DEFAULT NULL,
-  `rd_fragment` varbinary(255) DEFAULT NULL,
-  PRIMARY KEY (`rd_from`),
+  `rc_params` blob,
+  PRIMARY KEY (`rc_id`),
+  KEY `rc_timestamp` (`rc_timestamp`),
+  KEY `rc_namespace_title` (`rc_namespace`,`rc_title`),
+  KEY `rc_cur_id` (`rc_cur_id`),
+  KEY `new_name_timestamp` (`rc_new`,`rc_namespace`,`rc_timestamp`),
+  KEY `rc_ip` (`rc_ip`),
+  KEY `rc_ns_usertext` (`rc_namespace`,`rc_user_text`),
+  KEY `rc_user_text` (`rc_user_text`,`rc_timestamp`)
+) ENGINE=InnoDB AUTO_INCREMENT=104 DEFAULT CHARSET=binary;

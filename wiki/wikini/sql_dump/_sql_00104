@@ -1,10 +1,10 @@
-CREATE TABLE `radiohead_revision` (
-  `rev_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `rev_page` int(10) unsigned NOT NULL,
-  `rev_text_id` int(10) unsigned NOT NULL,
-  `rev_comment` tinyblob NOT NULL,
-  `rev_user` int(10) unsigned NOT NULL DEFAULT '0',
-  `rev_user_text` varbinary(255) NOT NULL DEFAULT '',
-  `rev_timestamp` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
-  `rev_minor_edit` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `rev_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rd_from` int(10) unsigned NOT NULL DEFAULT '0',
+  `rd_namespace` int(11) NOT NULL DEFAULT '0',
+  `rd_title` varbinary(255) NOT NULL DEFAULT '',
+  `rd_interwiki` varbinary(32) DEFAULT NULL,
+  `rd_fragment` varbinary(255) DEFAULT NULL,
+  PRIMARY KEY (`rd_from`),
+  KEY `rd_ns_title` (`rd_namespace`,`rd_title`,`rd_from`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+

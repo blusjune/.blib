@@ -1,10 +1,10 @@
-/*!40000 ALTER TABLE `radiohead_updatelog` DISABLE KEYS */;
-INSERT INTO `radiohead_updatelog` VALUES ('updatelist-1.21.0rc5-1369657977','a:0:{}');
-/*!40000 ALTER TABLE `radiohead_updatelog` ENABLE KEYS */;
+--
+-- Dumping data for table `radiohead_transcache`
+--
+
+LOCK TABLES `radiohead_transcache` WRITE;
+/*!40000 ALTER TABLE `radiohead_transcache` DISABLE KEYS */;
+/*!40000 ALTER TABLE `radiohead_transcache` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `radiohead_uploadstash`
---
-
-DROP TABLE IF EXISTS `radiohead_uploadstash`;

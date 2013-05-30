@@ -1,10 +1,10 @@
-
-LOCK TABLES `radiohead_protected_titles` WRITE;
-/*!40000 ALTER TABLE `radiohead_protected_titles` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_protected_titles` ENABLE KEYS */;
+/*!40000 ALTER TABLE `radiohead_pagelinks` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `radiohead_querycache`
+-- Table structure for table `radiohead_protected_titles`
 --
 
+DROP TABLE IF EXISTS `radiohead_protected_titles`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;

@@ -1,10 +1,10 @@
--- Table structure for table `radiohead_site_stats`
+--
+-- Table structure for table `radiohead_site_identifiers`
 --
 
-DROP TABLE IF EXISTS `radiohead_site_stats`;
+DROP TABLE IF EXISTS `radiohead_site_identifiers`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `radiohead_site_stats` (
-  `ss_row_id` int(10) unsigned NOT NULL,
-  `ss_total_views` bigint(20) unsigned DEFAULT '0',
-  `ss_total_edits` bigint(20) unsigned DEFAULT '0',
+CREATE TABLE `radiohead_site_identifiers` (
+  `si_site` int(10) unsigned NOT NULL,
+  `si_type` varbinary(32) NOT NULL,

@@ -3,7 +3,7 @@
 
 LOCK TABLES `radiohead_archive` WRITE;
 /*!40000 ALTER TABLE `radiohead_archive` DISABLE KEYS */;
-INSERT INTO `radiohead_archive` VALUES (0,'정명준','','Created page with \"정명준\"',1,'Blusjune','20130527123805',0,'',2,2,0,9,2,0,'sl4w4tz56xvb1s19gztn0i9hekzcsjc',NULL,NULL);
+INSERT INTO `radiohead_archive` VALUES (0,'정명준','','Created page with \"정명준\"',1,'Blusjune','20130527123805',0,'',2,2,0,9,2,0,'sl4w4tz56xvb1s19gztn0i9hekzcsjc',NULL,NULL),(0,'Bnote_PaperStudy_//_An_Analysis_of_Traces_from_a_Production_MapReduce_Cluster_//_CCGrid_2010','','Blusjune moved page [[Bnote PaperStudy // An Analysis of Traces from a Production MapReduce Cluster // CCGrid 2010]] to [[PaperStudy // An Analysis of Traces from a Production MapReduce Cluster // CCGrid 2010]]',1,'Blusjune','20130530120024',0,'',88,86,0,100,46,0,'1cbn4dtyr8oxz38l95sgeovfypm77io',NULL,NULL);
 /*!40000 ALTER TABLE `radiohead_archive` ENABLE KEYS */;
 UNLOCK TABLES;
 

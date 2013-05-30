@@ -1,10 +1,10 @@
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `radiohead_module_deps` (
-  `md_module` varbinary(255) NOT NULL,
-  `md_skin` varbinary(32) NOT NULL,
-  `md_deps` mediumblob NOT NULL,
-  UNIQUE KEY `md_module_skin` (`md_module`,`md_skin`)
+CREATE TABLE `radiohead_math` (
+  `math_inputhash` varbinary(16) NOT NULL,
+  `math_outputhash` varbinary(16) NOT NULL,
+  `math_html_conservativeness` tinyint(4) NOT NULL,
+  `math_html` blob,
+  `math_mathml` blob,
+  UNIQUE KEY `math_inputhash` (`math_inputhash`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
-

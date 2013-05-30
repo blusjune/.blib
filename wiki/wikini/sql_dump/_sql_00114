@@ -1,10 +1,10 @@
-  `ss_good_articles` bigint(20) unsigned DEFAULT '0',
-  `ss_total_pages` bigint(20) DEFAULT '-1',
-  `ss_users` bigint(20) DEFAULT '-1',
-  `ss_active_users` bigint(20) DEFAULT '-1',
-  `ss_images` int(11) DEFAULT '0',
-  UNIQUE KEY `ss_row_id` (`ss_row_id`)
+  `si_key` varbinary(32) NOT NULL,
+  UNIQUE KEY `site_ids_type` (`si_type`,`si_key`),
+  KEY `site_ids_site` (`si_site`),
+  KEY `site_ids_key` (`si_key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+--
+-- Dumping data for table `radiohead_site_identifiers`
 --

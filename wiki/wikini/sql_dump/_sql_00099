@@ -1,10 +1,10 @@
-  KEY `rc_ip` (`rc_ip`),
-  KEY `rc_ns_usertext` (`rc_namespace`,`rc_user_text`),
-  KEY `rc_user_text` (`rc_user_text`,`rc_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=65 DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `radiohead_recentchanges`
---
-
+  `rc_user` int(10) unsigned NOT NULL DEFAULT '0',
+  `rc_user_text` varbinary(255) NOT NULL,
+  `rc_namespace` int(11) NOT NULL DEFAULT '0',
+  `rc_title` varbinary(255) NOT NULL DEFAULT '',
+  `rc_comment` varbinary(255) NOT NULL DEFAULT '',
+  `rc_minor` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rc_bot` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rc_new` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rc_cur_id` int(10) unsigned NOT NULL DEFAULT '0',
+  `rc_this_oldid` int(10) unsigned NOT NULL DEFAULT '0',

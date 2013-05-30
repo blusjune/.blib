@@ -1,10 +1,10 @@
-  `ts_tags` blob NOT NULL,
-  UNIQUE KEY `tag_summary_rc_id` (`ts_rc_id`),
-  UNIQUE KEY `tag_summary_log_id` (`ts_log_id`),
-  UNIQUE KEY `tag_summary_rev_id` (`ts_rev_id`)
+  KEY `sites_language` (`site_language`),
+  KEY `sites_protocol` (`site_protocol`),
+  KEY `sites_domain` (`site_domain`),
+  KEY `sites_forward` (`site_forward`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `radiohead_tag_summary`
+-- Dumping data for table `radiohead_sites`
 --

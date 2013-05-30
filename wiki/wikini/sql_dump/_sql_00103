@@ -1,10 +1,10 @@
-/*!40000 ALTER TABLE `radiohead_redirect` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `radiohead_revision`
+-- Table structure for table `radiohead_redirect`
 --
 
-DROP TABLE IF EXISTS `radiohead_revision`;
+DROP TABLE IF EXISTS `radiohead_redirect`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_redirect` (

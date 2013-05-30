@@ -1,10 +1,10 @@
-  KEY `sites_type` (`site_type`),
-  KEY `sites_group` (`site_group`),
-  KEY `sites_source` (`site_source`),
-  KEY `sites_language` (`site_language`),
-  KEY `sites_protocol` (`site_protocol`),
-  KEY `sites_domain` (`site_domain`),
-  KEY `sites_forward` (`site_forward`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
+LOCK TABLES `radiohead_site_stats` WRITE;
+/*!40000 ALTER TABLE `radiohead_site_stats` DISABLE KEYS */;
+INSERT INTO `radiohead_site_stats` VALUES (1,205,114,18,45,1,1,0);
+/*!40000 ALTER TABLE `radiohead_site_stats` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `radiohead_sites`
+--
 

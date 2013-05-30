@@ -1,10 +1,10 @@
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `radiohead_page_restrictions`
---
-
-LOCK TABLES `radiohead_page_restrictions` WRITE;
-/*!40000 ALTER TABLE `radiohead_page_restrictions` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_page_restrictions` ENABLE KEYS */;
+LOCK TABLES `radiohead_page_props` WRITE;
+/*!40000 ALTER TABLE `radiohead_page_props` DISABLE KEYS */;
+/*!40000 ALTER TABLE `radiohead_page_props` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `radiohead_page_restrictions`
+--
+
+DROP TABLE IF EXISTS `radiohead_page_restrictions`;
