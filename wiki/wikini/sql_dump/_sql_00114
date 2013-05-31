@@ -1,4 +1,3 @@
-  `si_key` varbinary(32) NOT NULL,
   UNIQUE KEY `site_ids_type` (`si_type`,`si_key`),
   KEY `site_ids_site` (`si_site`),
   KEY `site_ids_key` (`si_key`)
@@ -8,3 +7,4 @@
 --
 -- Dumping data for table `radiohead_site_identifiers`
 --
+

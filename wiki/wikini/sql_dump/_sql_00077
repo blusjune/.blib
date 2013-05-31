@@ -5,6 +5,6 @@
   KEY `page_random` (`page_random`),
   KEY `page_len` (`page_len`),
   KEY `page_redirect_namespace_len` (`page_is_redirect`,`page_namespace`,`page_len`)
-) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=binary;
+) ENGINE=InnoDB AUTO_INCREMENT=59 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

@@ -1,4 +1,3 @@
--- Dumping data for table `radiohead_templatelinks`
 --
 
 LOCK TABLES `radiohead_templatelinks` WRITE;
@@ -8,3 +7,4 @@ INSERT INTO `radiohead_templatelinks` VALUES (8,10,'In_vector_calculus,_the_grad
 UNLOCK TABLES;
 
 --
+-- Table structure for table `radiohead_text`

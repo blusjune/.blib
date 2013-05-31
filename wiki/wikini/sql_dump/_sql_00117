@@ -1,4 +1,3 @@
-  `ss_active_users` bigint(20) DEFAULT '-1',
   `ss_images` int(11) DEFAULT '0',
   UNIQUE KEY `ss_row_id` (`ss_row_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
@@ -8,3 +7,4 @@
 -- Dumping data for table `radiohead_site_stats`
 --
 
+LOCK TABLES `radiohead_site_stats` WRITE;

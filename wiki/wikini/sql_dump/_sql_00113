@@ -1,4 +1,3 @@
---
 -- Table structure for table `radiohead_site_identifiers`
 --
 
@@ -8,3 +7,4 @@ DROP TABLE IF EXISTS `radiohead_site_identifiers`;
 CREATE TABLE `radiohead_site_identifiers` (
   `si_site` int(10) unsigned NOT NULL,
   `si_type` varbinary(32) NOT NULL,
+  `si_key` varbinary(32) NOT NULL,

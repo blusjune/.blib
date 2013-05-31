@@ -1,4 +1,3 @@
--- Table structure for table `radiohead_updatelog`
 --
 
 DROP TABLE IF EXISTS `radiohead_updatelog`;
@@ -8,3 +7,4 @@ CREATE TABLE `radiohead_updatelog` (
   `ul_key` varbinary(255) NOT NULL,
   `ul_value` blob,
   PRIMARY KEY (`ul_key`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;

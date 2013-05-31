@@ -1,4 +1,3 @@
-  KEY `sites_language` (`site_language`),
   KEY `sites_protocol` (`site_protocol`),
   KEY `sites_domain` (`site_domain`),
   KEY `sites_forward` (`site_forward`)
@@ -8,3 +7,4 @@
 --
 -- Dumping data for table `radiohead_sites`
 --
+

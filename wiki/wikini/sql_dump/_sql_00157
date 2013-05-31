@@ -1,4 +1,3 @@
-
 --
 -- Dumping data for table `radiohead_watchlist`
 --
@@ -8,3 +7,4 @@ LOCK TABLES `radiohead_watchlist` WRITE;
 /*!40000 ALTER TABLE `radiohead_watchlist` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+

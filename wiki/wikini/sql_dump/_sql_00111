@@ -1,4 +1,3 @@
-  `si_page` int(10) unsigned NOT NULL,
   `si_title` varchar(255) NOT NULL DEFAULT '',
   `si_text` mediumtext NOT NULL,
   UNIQUE KEY `si_page` (`si_page`),
@@ -8,3 +7,4 @@
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `radiohead_searchindex`
