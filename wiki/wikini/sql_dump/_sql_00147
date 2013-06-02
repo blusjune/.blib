@@ -1,3 +1,4 @@
+
 --
 -- Dumping data for table `radiohead_user_groups`
 --
@@ -7,4 +8,3 @@ LOCK TABLES `radiohead_user_groups` WRITE;
 INSERT INTO `radiohead_user_groups` VALUES (1,'bureaucrat'),(1,'sysop');
 /*!40000 ALTER TABLE `radiohead_user_groups` ENABLE KEYS */;
 UNLOCK TABLES;
-
