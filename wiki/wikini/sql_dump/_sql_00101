@@ -7,4 +7,4 @@
   KEY `rc_ip` (`rc_ip`),
   KEY `rc_ns_usertext` (`rc_namespace`,`rc_user_text`),
   KEY `rc_user_text` (`rc_user_text`,`rc_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=192 DEFAULT CHARSET=binary;
+) ENGINE=InnoDB AUTO_INCREMENT=266 DEFAULT CHARSET=binary;

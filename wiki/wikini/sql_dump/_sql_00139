@@ -1,3 +1,6 @@
+--
+
+LOCK TABLES `radiohead_uploadstash` WRITE;
 /*!40000 ALTER TABLE `radiohead_uploadstash` DISABLE KEYS */;
 /*!40000 ALTER TABLE `radiohead_uploadstash` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -5,6 +8,3 @@ UNLOCK TABLES;
 --
 -- Table structure for table `radiohead_user`
 --
-
-DROP TABLE IF EXISTS `radiohead_user`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
