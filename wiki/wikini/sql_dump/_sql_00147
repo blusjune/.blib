@@ -1,3 +1,5 @@
+  `ug_group` varbinary(255) NOT NULL DEFAULT '',
+  UNIQUE KEY `ug_user_group` (`ug_user`,`ug_group`),
   KEY `ug_group` (`ug_group`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -6,5 +8,3 @@
 -- Dumping data for table `radiohead_user_groups`
 --
 
-LOCK TABLES `radiohead_user_groups` WRITE;
-/*!40000 ALTER TABLE `radiohead_user_groups` DISABLE KEYS */;

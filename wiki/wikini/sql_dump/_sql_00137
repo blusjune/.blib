@@ -1,3 +1,5 @@
+  `us_path` varbinary(255) NOT NULL,
+  `us_source_type` varbinary(50) DEFAULT NULL,
   `us_timestamp` varbinary(14) NOT NULL,
   `us_status` varbinary(50) NOT NULL,
   `us_chunk_inx` int(10) unsigned DEFAULT NULL,
@@ -6,5 +8,3 @@
   `us_sha1` varbinary(31) NOT NULL,
   `us_mime` varbinary(255) DEFAULT NULL,
   `us_media_type` enum('UNKNOWN','BITMAP','DRAWING','AUDIO','VIDEO','MULTIMEDIA','OFFICE','TEXT','EXECUTABLE','ARCHIVE') DEFAULT NULL,
-  `us_image_width` int(10) unsigned DEFAULT NULL,
-  `us_image_height` int(10) unsigned DEFAULT NULL,

@@ -1,3 +1,5 @@
+
+LOCK TABLES `radiohead_user_properties` WRITE;
 /*!40000 ALTER TABLE `radiohead_user_properties` DISABLE KEYS */;
 INSERT INTO `radiohead_user_properties` VALUES (1,'gender','male'),(1,'imagesize','4'),(1,'numberheadings','1'),(1,'rememberpassword','1'),(1,'thumbsize','5'),(1,'nickname',''),(1,'timecorrection','ZoneInfo|540|Asia/Seoul'),(1,'watchlisttoken',''),(1,'vector-collapsiblenav','1');
 /*!40000 ALTER TABLE `radiohead_user_properties` ENABLE KEYS */;
@@ -6,5 +8,3 @@ UNLOCK TABLES;
 --
 -- Table structure for table `radiohead_valid_tag`
 --
-
-DROP TABLE IF EXISTS `radiohead_valid_tag`;
