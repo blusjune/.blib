@@ -1,5 +1,5 @@
 /*!40000 ALTER TABLE `radiohead_site_stats` DISABLE KEYS */;
-INSERT INTO `radiohead_site_stats` VALUES (1,599,314,19,48,1,1,0);
+INSERT INTO `radiohead_site_stats` VALUES (1,600,315,19,48,1,1,0);
 /*!40000 ALTER TABLE `radiohead_site_stats` ENABLE KEYS */;
 UNLOCK TABLES;
 
