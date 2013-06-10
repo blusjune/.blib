@@ -1,3 +1,4 @@
+--
 -- Table structure for table `radiohead_user`
 --
 
@@ -7,4 +8,3 @@ DROP TABLE IF EXISTS `radiohead_user`;
 CREATE TABLE `radiohead_user` (
   `user_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `user_name` varbinary(255) NOT NULL DEFAULT '',
-  `user_real_name` varbinary(255) NOT NULL DEFAULT '',

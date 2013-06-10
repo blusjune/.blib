@@ -1,3 +1,4 @@
+--
 -- Table structure for table `radiohead_watchlist`
 --
 
@@ -7,4 +8,3 @@ DROP TABLE IF EXISTS `radiohead_watchlist`;
 CREATE TABLE `radiohead_watchlist` (
   `wl_user` int(10) unsigned NOT NULL,
   `wl_namespace` int(11) NOT NULL DEFAULT '0',
-  `wl_title` varbinary(255) NOT NULL DEFAULT '',

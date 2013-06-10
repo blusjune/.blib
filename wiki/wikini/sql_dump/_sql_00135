@@ -1,3 +1,4 @@
+-- Dumping data for table `radiohead_updatelog`
 --
 
 LOCK TABLES `radiohead_updatelog` WRITE;
@@ -7,4 +8,3 @@ INSERT INTO `radiohead_updatelog` VALUES ('DeleteDefaultMessages',NULL),('cl_fie
 UNLOCK TABLES;
 
 --
--- Table structure for table `radiohead_uploadstash`
