@@ -1,3 +1,6 @@
+DROP TABLE IF EXISTS `radiohead_protected_titles`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_protected_titles` (
   `pt_namespace` int(11) NOT NULL,
   `pt_title` varbinary(255) NOT NULL,
@@ -5,6 +8,3 @@ CREATE TABLE `radiohead_protected_titles` (
   `pt_reason` tinyblob,
   `pt_timestamp` binary(14) NOT NULL,
   `pt_expiry` varbinary(14) NOT NULL DEFAULT '',
-  `pt_create_perm` varbinary(60) NOT NULL,
-  UNIQUE KEY `pt_namespace_title` (`pt_namespace`,`pt_title`),
-  KEY `pt_timestamp` (`pt_timestamp`)

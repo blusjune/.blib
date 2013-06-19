@@ -1,3 +1,5 @@
+/*!40101 SET character_set_client = @saved_cs_client */;
+
 --
 -- Dumping data for table `radiohead_job`
 --
@@ -6,5 +8,3 @@ LOCK TABLES `radiohead_job` WRITE;
 /*!40000 ALTER TABLE `radiohead_job` DISABLE KEYS */;
 /*!40000 ALTER TABLE `radiohead_job` ENABLE KEYS */;
 UNLOCK TABLES;
-
---

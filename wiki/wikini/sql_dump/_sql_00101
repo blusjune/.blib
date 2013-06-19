@@ -1,3 +1,6 @@
+  `rc_logid` int(10) unsigned NOT NULL DEFAULT '0',
+  `rc_log_type` varbinary(255) DEFAULT NULL,
+  `rc_log_action` varbinary(255) DEFAULT NULL,
   `rc_params` blob,
   PRIMARY KEY (`rc_id`),
   KEY `rc_timestamp` (`rc_timestamp`),
@@ -5,6 +8,3 @@
   KEY `rc_cur_id` (`rc_cur_id`),
   KEY `new_name_timestamp` (`rc_new`,`rc_namespace`,`rc_timestamp`),
   KEY `rc_ip` (`rc_ip`),
-  KEY `rc_ns_usertext` (`rc_namespace`,`rc_user_text`),
-  KEY `rc_user_text` (`rc_user_text`,`rc_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=315 DEFAULT CHARSET=binary;

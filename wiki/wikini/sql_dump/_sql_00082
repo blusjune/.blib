@@ -1,3 +1,6 @@
+--
+
+DROP TABLE IF EXISTS `radiohead_page_restrictions`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_page_restrictions` (
@@ -5,6 +8,3 @@ CREATE TABLE `radiohead_page_restrictions` (
   `pr_type` varbinary(60) NOT NULL,
   `pr_level` varbinary(60) NOT NULL,
   `pr_cascade` tinyint(4) NOT NULL,
-  `pr_user` int(11) DEFAULT NULL,
-  `pr_expiry` varbinary(14) DEFAULT NULL,
-  `pr_id` int(10) unsigned NOT NULL AUTO_INCREMENT,

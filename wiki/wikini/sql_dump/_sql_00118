@@ -1,10 +1,10 @@
+--
+
+LOCK TABLES `radiohead_site_stats` WRITE;
 /*!40000 ALTER TABLE `radiohead_site_stats` DISABLE KEYS */;
-INSERT INTO `radiohead_site_stats` VALUES (1,667,347,19,50,1,1,0);
+INSERT INTO `radiohead_site_stats` VALUES (1,698,355,19,55,1,1,5);
 /*!40000 ALTER TABLE `radiohead_site_stats` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
 -- Table structure for table `radiohead_sites`
---
-
-DROP TABLE IF EXISTS `radiohead_sites`;

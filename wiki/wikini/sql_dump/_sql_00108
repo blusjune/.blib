@@ -1,3 +1,6 @@
+  `rev_parent_id` int(10) unsigned DEFAULT NULL,
+  `rev_sha1` varbinary(32) NOT NULL DEFAULT '',
+  `rev_content_model` varbinary(32) DEFAULT NULL,
   `rev_content_format` varbinary(64) DEFAULT NULL,
   PRIMARY KEY (`rev_id`),
   UNIQUE KEY `rev_page_id` (`rev_page`,`rev_id`),
@@ -5,6 +8,3 @@
   KEY `page_timestamp` (`rev_page`,`rev_timestamp`),
   KEY `user_timestamp` (`rev_user`,`rev_timestamp`),
   KEY `usertext_timestamp` (`rev_user_text`,`rev_timestamp`),
-  KEY `page_user_timestamp` (`rev_page`,`rev_user`,`rev_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=310 DEFAULT CHARSET=binary MAX_ROWS=10000000 AVG_ROW_LENGTH=1024;
-/*!40101 SET character_set_client = @saved_cs_client */;

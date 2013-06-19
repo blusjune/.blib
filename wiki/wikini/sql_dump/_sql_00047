@@ -1,3 +1,5 @@
+
+--
 -- Table structure for table `radiohead_l10n_cache`
 --
 
@@ -6,5 +8,3 @@ DROP TABLE IF EXISTS `radiohead_l10n_cache`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_l10n_cache` (
   `lc_lang` varbinary(32) NOT NULL,
-  `lc_key` varbinary(255) NOT NULL,
-  `lc_value` mediumblob NOT NULL,

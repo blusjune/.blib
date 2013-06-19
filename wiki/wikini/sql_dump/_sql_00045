@@ -1,3 +1,5 @@
+  `job_token` varbinary(32) NOT NULL DEFAULT '',
+  `job_token_timestamp` varbinary(14) DEFAULT NULL,
   `job_sha1` varbinary(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`job_id`),
   KEY `job_sha1` (`job_sha1`),
@@ -6,5 +8,3 @@
   KEY `job_cmd` (`job_cmd`,`job_namespace`,`job_title`,`job_params`(128)),
   KEY `job_timestamp` (`job_timestamp`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
-

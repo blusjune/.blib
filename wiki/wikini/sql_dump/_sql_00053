@@ -1,3 +1,5 @@
+  `ls_value` varbinary(255) NOT NULL,
+  `ls_log_id` int(10) unsigned NOT NULL DEFAULT '0',
   UNIQUE KEY `ls_field_val` (`ls_field`,`ls_value`,`ls_log_id`),
   KEY `ls_log_id` (`ls_log_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
@@ -6,5 +8,3 @@
 --
 -- Dumping data for table `radiohead_log_search`
 --
-
-LOCK TABLES `radiohead_log_search` WRITE;

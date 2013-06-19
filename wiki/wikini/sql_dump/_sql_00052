@@ -1,3 +1,5 @@
+
+--
 -- Table structure for table `radiohead_log_search`
 --
 
@@ -6,5 +8,3 @@ DROP TABLE IF EXISTS `radiohead_log_search`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_log_search` (
   `ls_field` varbinary(32) NOT NULL,
-  `ls_value` varbinary(255) NOT NULL,
-  `ls_log_id` int(10) unsigned NOT NULL DEFAULT '0',

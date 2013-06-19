@@ -1,3 +1,6 @@
+
+--
+-- Dumping data for table `radiohead_templatelinks`
 --
 
 LOCK TABLES `radiohead_templatelinks` WRITE;
@@ -5,6 +8,3 @@ LOCK TABLES `radiohead_templatelinks` WRITE;
 INSERT INTO `radiohead_templatelinks` VALUES (8,10,'In_vector_calculus,_the_gradient_of_a_scalar_field_is_a_vector_field_that_points_in_the_direction_of_the_greatest_rate_of_increase_of_the_scalar_field,_and_whose_magnitude_is_that_rate_of_increase.');
 /*!40000 ALTER TABLE `radiohead_templatelinks` ENABLE KEYS */;
 UNLOCK TABLES;
-
---
--- Table structure for table `radiohead_text`

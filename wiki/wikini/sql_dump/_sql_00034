@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS `radiohead_interwiki`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_interwiki` (
   `iw_prefix` varbinary(32) NOT NULL,
@@ -6,5 +8,3 @@ CREATE TABLE `radiohead_interwiki` (
   `iw_wikiid` varbinary(64) NOT NULL,
   `iw_local` tinyint(1) NOT NULL,
   `iw_trans` tinyint(4) NOT NULL DEFAULT '0',
-  UNIQUE KEY `iw_prefix` (`iw_prefix`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;

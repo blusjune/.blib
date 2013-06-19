@@ -1,10 +1,10 @@
+CREATE TABLE `radiohead_user_former_groups` (
+  `ufg_user` int(10) unsigned NOT NULL DEFAULT '0',
+  `ufg_group` varbinary(255) NOT NULL DEFAULT '',
+  UNIQUE KEY `ufg_user_group` (`ufg_user`,`ufg_group`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
 -- Dumping data for table `radiohead_user_former_groups`
 --
-
-LOCK TABLES `radiohead_user_former_groups` WRITE;
-/*!40000 ALTER TABLE `radiohead_user_former_groups` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_user_former_groups` ENABLE KEYS */;

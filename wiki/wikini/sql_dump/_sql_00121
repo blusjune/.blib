@@ -1,3 +1,6 @@
+  KEY `sites_group` (`site_group`),
+  KEY `sites_source` (`site_source`),
+  KEY `sites_language` (`site_language`),
   KEY `sites_protocol` (`site_protocol`),
   KEY `sites_domain` (`site_domain`),
   KEY `sites_forward` (`site_forward`)
@@ -5,6 +8,3 @@
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `radiohead_sites`
---
-

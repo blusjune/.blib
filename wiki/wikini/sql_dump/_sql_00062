@@ -1,3 +1,5 @@
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_module_deps` (
   `md_module` varbinary(255) NOT NULL,
   `md_skin` varbinary(32) NOT NULL,
   `md_deps` mediumblob NOT NULL,
@@ -5,6 +7,4 @@
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `radiohead_module_deps`
 --

@@ -1,3 +1,5 @@
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_ipblocks` (
   `ipb_id` int(11) NOT NULL AUTO_INCREMENT,
   `ipb_address` tinyblob NOT NULL,
   `ipb_user` int(10) unsigned NOT NULL DEFAULT '0',
@@ -6,5 +8,3 @@
   `ipb_reason` tinyblob NOT NULL,
   `ipb_timestamp` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
   `ipb_auto` tinyint(1) NOT NULL DEFAULT '0',
-  `ipb_anon_only` tinyint(1) NOT NULL DEFAULT '0',
-  `ipb_create_account` tinyint(1) NOT NULL DEFAULT '1',

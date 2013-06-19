@@ -4,7 +4,7 @@
   KEY `fa_deleted_timestamp` (`fa_deleted_timestamp`),
   KEY `fa_user_timestamp` (`fa_user_text`,`fa_timestamp`),
   KEY `fa_sha1` (`fa_sha1`(10))
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

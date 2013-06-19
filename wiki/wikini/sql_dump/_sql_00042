@@ -1,3 +1,5 @@
+  UNIQUE KEY `iwl_from` (`iwl_from`,`iwl_prefix`,`iwl_title`),
+  UNIQUE KEY `iwl_prefix_title_from` (`iwl_prefix`,`iwl_title`,`iwl_from`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -6,5 +8,3 @@
 --
 
 LOCK TABLES `radiohead_iwlinks` WRITE;
-/*!40000 ALTER TABLE `radiohead_iwlinks` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_iwlinks` ENABLE KEYS */;

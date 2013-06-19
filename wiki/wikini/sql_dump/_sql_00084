@@ -1,3 +1,6 @@
+
+--
+-- Dumping data for table `radiohead_page_restrictions`
 --
 
 LOCK TABLES `radiohead_page_restrictions` WRITE;
@@ -5,6 +8,3 @@ LOCK TABLES `radiohead_page_restrictions` WRITE;
 /*!40000 ALTER TABLE `radiohead_page_restrictions` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Table structure for table `radiohead_pagelinks`
---

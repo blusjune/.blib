@@ -1,3 +1,6 @@
+  `rc_new` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `rc_cur_id` int(10) unsigned NOT NULL DEFAULT '0',
+  `rc_this_oldid` int(10) unsigned NOT NULL DEFAULT '0',
   `rc_last_oldid` int(10) unsigned NOT NULL DEFAULT '0',
   `rc_type` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `rc_patrolled` tinyint(3) unsigned NOT NULL DEFAULT '0',
@@ -5,6 +8,3 @@
   `rc_old_len` int(11) DEFAULT NULL,
   `rc_new_len` int(11) DEFAULT NULL,
   `rc_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `rc_logid` int(10) unsigned NOT NULL DEFAULT '0',
-  `rc_log_type` varbinary(255) DEFAULT NULL,
-  `rc_log_action` varbinary(255) DEFAULT NULL,

@@ -1,3 +1,5 @@
+-- Dumping data for table `radiohead_module_deps`
+--
 
 LOCK TABLES `radiohead_module_deps` WRITE;
 /*!40000 ALTER TABLE `radiohead_module_deps` DISABLE KEYS */;
@@ -5,6 +7,4 @@ INSERT INTO `radiohead_module_deps` VALUES ('ext.vector.collapsibleNav','vector'
 /*!40000 ALTER TABLE `radiohead_module_deps` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Table structure for table `radiohead_msg_resource`
 --

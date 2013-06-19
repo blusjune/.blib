@@ -1,3 +1,6 @@
+  `si_site` int(10) unsigned NOT NULL,
+  `si_type` varbinary(32) NOT NULL,
+  `si_key` varbinary(32) NOT NULL,
   UNIQUE KEY `site_ids_type` (`si_type`,`si_key`),
   KEY `site_ids_site` (`si_site`),
   KEY `site_ids_key` (`si_key`)
@@ -5,6 +8,3 @@
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `radiohead_site_identifiers`
---
-

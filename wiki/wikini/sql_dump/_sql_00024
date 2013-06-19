@@ -3,8 +3,8 @@
 
 LOCK TABLES `radiohead_filearchive` WRITE;
 /*!40000 ALTER TABLE `radiohead_filearchive` DISABLE KEYS */;
+INSERT INTO `radiohead_filearchive` VALUES (1,'Tsplot.rw_rs_pname.png',NULL,'deleted','633zpz6fuhkdyw7cu5jkcl0baalz017.png',1,'20130619110727','',32979,1280,996,'a:6:{s:10:\"frameCount\";i:0;s:9:\"loopCount\";i:1;s:8:\"duration\";d:0;s:8:\"bitDepth\";i:8;s:9:\"colorType\";s:10:\"truecolour\";s:8:\"metadata\";a:6:{s:11:\"XResolution\";s:8:\"3780/100\";s:11:\"YResolution\";s:8:\"3780/100\";s:14:\"ResolutionUnit\";i:3;s:8:\"DateTime\";s:19:\"2013:06:18 04:35:16\";s:14:\"PNGFileComment\";a:2:{s:9:\"x-default\";s:17:\"Created with GIMP\";s:5:\"_type\";s:4:\"lang\";}s:15:\"_MW_PNG_VERSION\";i:1;}}',8,'BITMAP','image','png','',1,'Blusjune','20130619110422',0,'633zpz6fuhkdyw7cu5jkcl0baalz017');
 /*!40000 ALTER TABLE `radiohead_filearchive` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `radiohead_hitcounter`

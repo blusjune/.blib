@@ -1,3 +1,6 @@
+-- Dumping data for table `radiohead_site_identifiers`
+--
+
 LOCK TABLES `radiohead_site_identifiers` WRITE;
 /*!40000 ALTER TABLE `radiohead_site_identifiers` DISABLE KEYS */;
 /*!40000 ALTER TABLE `radiohead_site_identifiers` ENABLE KEYS */;
@@ -5,6 +8,3 @@ UNLOCK TABLES;
 
 --
 -- Table structure for table `radiohead_site_stats`
---
-
-DROP TABLE IF EXISTS `radiohead_site_stats`;

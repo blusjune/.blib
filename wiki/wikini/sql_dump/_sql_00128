@@ -1,3 +1,6 @@
+
+--
+-- Table structure for table `radiohead_text`
 --
 
 DROP TABLE IF EXISTS `radiohead_text`;
@@ -5,6 +8,3 @@ DROP TABLE IF EXISTS `radiohead_text`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_text` (
   `old_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `old_text` mediumblob NOT NULL,
-  `old_flags` tinyblob NOT NULL,
-  PRIMARY KEY (`old_id`)

@@ -1,3 +1,5 @@
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `radiohead_job` (
   `job_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `job_cmd` varbinary(60) NOT NULL DEFAULT '',
   `job_namespace` int(11) NOT NULL,
@@ -6,5 +8,3 @@
   `job_params` blob NOT NULL,
   `job_random` int(10) unsigned NOT NULL DEFAULT '0',
   `job_attempts` int(10) unsigned NOT NULL DEFAULT '0',
-  `job_token` varbinary(32) NOT NULL DEFAULT '',
-  `job_token_timestamp` varbinary(14) DEFAULT NULL,

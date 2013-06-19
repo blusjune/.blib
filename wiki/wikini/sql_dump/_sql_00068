@@ -1,10 +1,10 @@
+-- Dumping data for table `radiohead_msg_resource_links`
+--
 
 LOCK TABLES `radiohead_msg_resource_links` WRITE;
 /*!40000 ALTER TABLE `radiohead_msg_resource_links` DISABLE KEYS */;
-INSERT INTO `radiohead_msg_resource_links` VALUES ('jquery.makeCollapsible','collapsible-collapse'),('jquery.makeCollapsible','collapsible-expand'),('mediawiki.util','hidetoc'),('mediawiki.special.search','powersearch-toggleall'),('mediawiki.special.search','powersearch-togglelabel'),('mediawiki.special.search','powersearch-togglenone'),('mediawiki.searchSuggest','searchsuggest-containing'),('mediawiki.searchSuggest','searchsuggest-search'),('mediawiki.util','showtoc'),('mediawiki.page.watch.ajax','tooltip-ca-unwatch'),('mediawiki.page.watch.ajax','tooltip-ca-watch'),('mediawiki.page.watch.ajax','unwatch'),('mediawiki.page.watch.ajax','unwatching'),('ext.vector.collapsibleNav','vector-collapsiblenav-more'),('mediawiki.page.watch.ajax','watch'),('mediawiki.page.watch.ajax','watcherrortext'),('mediawiki.page.watch.ajax','watching');
+INSERT INTO `radiohead_msg_resource_links` VALUES ('jquery.makeCollapsible','collapsible-collapse'),('jquery.makeCollapsible','collapsible-expand'),('mediawiki.util','hidetoc'),('mediawiki.special.upload','largefileserver'),('mediawiki.action.view.metadata','metadata-collapse'),('mediawiki.action.view.metadata','metadata-expand'),('mediawiki.special.search','powersearch-toggleall'),('mediawiki.special.search','powersearch-togglelabel'),('mediawiki.special.search','powersearch-togglenone'),('mediawiki.searchSuggest','searchsuggest-containing'),('mediawiki.searchSuggest','searchsuggest-search'),('mediawiki.util','showtoc'),('mediawiki.special.upload','size-bytes'),('mediawiki.special.upload','size-gigabytes'),('mediawiki.special.upload','size-kilobytes'),('mediawiki.special.upload','size-megabytes'),('mediawiki.page.watch.ajax','tooltip-ca-unwatch'),('mediawiki.page.watch.ajax','tooltip-ca-watch'),('mediawiki.page.watch.ajax','unwatch'),('mediawiki.page.watch.ajax','unwatching'),('ext.vector.collapsibleNav','vector-collapsiblenav-more'),('mediawiki.page.watch.ajax','watch'),('mediawiki.page.watch.ajax','watcherrortext'),('mediawiki.page.watch.ajax','watching'),('mediawiki.special.upload','widthheight');
 /*!40000 ALTER TABLE `radiohead_msg_resource_links` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Table structure for table `radiohead_objectcache`
 --

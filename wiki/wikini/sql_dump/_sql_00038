@@ -1,3 +1,5 @@
+  `ipb_anon_only` tinyint(1) NOT NULL DEFAULT '0',
+  `ipb_create_account` tinyint(1) NOT NULL DEFAULT '1',
   `ipb_enable_autoblock` tinyint(1) NOT NULL DEFAULT '1',
   `ipb_expiry` varbinary(14) NOT NULL DEFAULT '',
   `ipb_range_start` tinyblob NOT NULL,
@@ -6,5 +8,3 @@
   `ipb_block_email` tinyint(1) NOT NULL DEFAULT '0',
   `ipb_allow_usertalk` tinyint(1) NOT NULL DEFAULT '0',
   `ipb_parent_block_id` int(11) DEFAULT NULL,
-  PRIMARY KEY (`ipb_id`),
-  UNIQUE KEY `ipb_address` (`ipb_address`(255),`ipb_user`,`ipb_auto`,`ipb_anon_only`),

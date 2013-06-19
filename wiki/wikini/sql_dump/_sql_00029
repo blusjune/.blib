@@ -1,3 +1,4 @@
+  `img_timestamp` varbinary(14) NOT NULL DEFAULT '',
   `img_sha1` varbinary(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`img_name`),
   KEY `img_usertext_timestamp` (`img_user_text`,`img_timestamp`),
@@ -7,4 +8,3 @@
   KEY `img_media_mime` (`img_media_type`,`img_major_mime`,`img_minor_mime`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
-

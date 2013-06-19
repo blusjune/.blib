@@ -1,10 +1,10 @@
+  `user_token` binary(32) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
+  `user_email_authenticated` binary(14) DEFAULT NULL,
+  `user_email_token` binary(32) DEFAULT NULL,
+  `user_email_token_expires` binary(14) DEFAULT NULL,
   `user_registration` binary(14) DEFAULT NULL,
   `user_editcount` int(11) DEFAULT NULL,
   PRIMARY KEY (`user_id`),
   UNIQUE KEY `user_name` (`user_name`),
   KEY `user_email_token` (`user_email_token`),
   KEY `user_email` (`user_email`(50))
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=binary;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---

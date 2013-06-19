@@ -1,3 +1,6 @@
+  `pt_create_perm` varbinary(60) NOT NULL,
+  UNIQUE KEY `pt_namespace_title` (`pt_namespace`,`pt_title`),
+  KEY `pt_timestamp` (`pt_timestamp`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -5,6 +8,3 @@
 -- Dumping data for table `radiohead_protected_titles`
 --
 
-LOCK TABLES `radiohead_protected_titles` WRITE;
-/*!40000 ALTER TABLE `radiohead_protected_titles` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_protected_titles` ENABLE KEYS */;

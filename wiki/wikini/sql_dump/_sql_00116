@@ -1,3 +1,6 @@
+--
+
+DROP TABLE IF EXISTS `radiohead_site_stats`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_site_stats` (
@@ -5,6 +8,3 @@ CREATE TABLE `radiohead_site_stats` (
   `ss_total_views` bigint(20) unsigned DEFAULT '0',
   `ss_total_edits` bigint(20) unsigned DEFAULT '0',
   `ss_good_articles` bigint(20) unsigned DEFAULT '0',
-  `ss_total_pages` bigint(20) DEFAULT '-1',
-  `ss_users` bigint(20) DEFAULT '-1',
-  `ss_active_users` bigint(20) DEFAULT '-1',

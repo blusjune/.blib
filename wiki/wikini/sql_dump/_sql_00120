@@ -1,3 +1,6 @@
+  `site_source` varbinary(32) NOT NULL,
+  `site_language` varbinary(32) NOT NULL,
+  `site_protocol` varbinary(32) NOT NULL,
   `site_domain` varbinary(255) NOT NULL,
   `site_data` blob NOT NULL,
   `site_forward` tinyint(1) NOT NULL,
@@ -5,6 +8,3 @@
   PRIMARY KEY (`site_id`),
   UNIQUE KEY `sites_global_key` (`site_global_key`),
   KEY `sites_type` (`site_type`),
-  KEY `sites_group` (`site_group`),
-  KEY `sites_source` (`site_source`),
-  KEY `sites_language` (`site_language`),

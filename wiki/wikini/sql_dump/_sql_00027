@@ -1,3 +1,4 @@
+--
 -- Table structure for table `radiohead_image`
 --
 
@@ -7,4 +8,3 @@ DROP TABLE IF EXISTS `radiohead_image`;
 CREATE TABLE `radiohead_image` (
   `img_name` varbinary(255) NOT NULL DEFAULT '',
   `img_size` int(10) unsigned NOT NULL DEFAULT '0',
-  `img_width` int(11) NOT NULL DEFAULT '0',

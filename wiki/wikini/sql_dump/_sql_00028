@@ -1,3 +1,4 @@
+  `img_width` int(11) NOT NULL DEFAULT '0',
   `img_height` int(11) NOT NULL DEFAULT '0',
   `img_metadata` mediumblob NOT NULL,
   `img_bits` int(11) NOT NULL DEFAULT '0',
@@ -7,4 +8,3 @@
   `img_description` tinyblob NOT NULL,
   `img_user` int(10) unsigned NOT NULL DEFAULT '0',
   `img_user_text` varbinary(255) NOT NULL,
-  `img_timestamp` varbinary(14) NOT NULL DEFAULT '',
