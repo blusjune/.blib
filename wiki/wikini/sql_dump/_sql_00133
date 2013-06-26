@@ -1,3 +1,4 @@
+--
 -- Dumping data for table `radiohead_transcache`
 --
 
@@ -7,4 +8,3 @@ LOCK TABLES `radiohead_transcache` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `radiohead_updatelog`
