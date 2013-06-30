@@ -1,10 +1,10 @@
+  PRIMARY KEY (`us_id`),
+  UNIQUE KEY `us_key` (`us_key`),
   KEY `us_user` (`us_user`),
   KEY `us_timestamp` (`us_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=binary;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
 -- Dumping data for table `radiohead_uploadstash`
 --
-
-LOCK TABLES `radiohead_uploadstash` WRITE;

@@ -5,5 +5,6 @@
 
 #(cd db/mysql; _BDX)
 #(cd db/wikini; _BDX)
+#(cd wiki/wikini; _BDX)
 
 
