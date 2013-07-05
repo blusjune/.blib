@@ -1,3 +1,4 @@
+  `up_value` blob,
   UNIQUE KEY `user_properties_user_property` (`up_user`,`up_property`),
   KEY `user_properties_property` (`up_property`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
@@ -7,4 +8,3 @@
 -- Dumping data for table `radiohead_user_properties`
 --
 
-LOCK TABLES `radiohead_user_properties` WRITE;

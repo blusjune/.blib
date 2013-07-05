@@ -1,3 +1,4 @@
+  `us_timestamp` varbinary(14) NOT NULL,
   `us_status` varbinary(50) NOT NULL,
   `us_chunk_inx` int(10) unsigned DEFAULT NULL,
   `us_props` blob,
@@ -7,4 +8,3 @@
   `us_media_type` enum('UNKNOWN','BITMAP','DRAWING','AUDIO','VIDEO','MULTIMEDIA','OFFICE','TEXT','EXECUTABLE','ARCHIVE') DEFAULT NULL,
   `us_image_width` int(10) unsigned DEFAULT NULL,
   `us_image_height` int(10) unsigned DEFAULT NULL,
-  `us_image_bits` smallint(5) unsigned DEFAULT NULL,

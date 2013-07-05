@@ -1,3 +1,4 @@
+  `us_image_bits` smallint(5) unsigned DEFAULT NULL,
   PRIMARY KEY (`us_id`),
   UNIQUE KEY `us_key` (`us_key`),
   KEY `us_user` (`us_user`),
@@ -7,4 +8,3 @@
 
 --
 -- Dumping data for table `radiohead_uploadstash`
---

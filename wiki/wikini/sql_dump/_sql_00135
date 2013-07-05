@@ -1,3 +1,4 @@
+  `ul_key` varbinary(255) NOT NULL,
   `ul_value` blob,
   PRIMARY KEY (`ul_key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
@@ -7,4 +8,3 @@
 -- Dumping data for table `radiohead_updatelog`
 --
 
-LOCK TABLES `radiohead_updatelog` WRITE;

@@ -1,3 +1,4 @@
+--
 
 LOCK TABLES `radiohead_uploadstash` WRITE;
 /*!40000 ALTER TABLE `radiohead_uploadstash` DISABLE KEYS */;
@@ -7,4 +8,3 @@ UNLOCK TABLES;
 
 --
 -- Table structure for table `radiohead_user`
---
