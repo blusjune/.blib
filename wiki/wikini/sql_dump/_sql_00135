@@ -1,3 +1,4 @@
+CREATE TABLE `radiohead_updatelog` (
   `ul_key` varbinary(255) NOT NULL,
   `ul_value` blob,
   PRIMARY KEY (`ul_key`)
@@ -7,4 +8,3 @@
 --
 -- Dumping data for table `radiohead_updatelog`
 --
-

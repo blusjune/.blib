@@ -1,3 +1,4 @@
+
 --
 -- Table structure for table `radiohead_user_properties`
 --
@@ -7,4 +8,3 @@ DROP TABLE IF EXISTS `radiohead_user_properties`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_user_properties` (
   `up_user` int(11) NOT NULL,
-  `up_property` varbinary(255) DEFAULT NULL,

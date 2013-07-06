@@ -1,3 +1,4 @@
+LOCK TABLES `radiohead_user_groups` WRITE;
 /*!40000 ALTER TABLE `radiohead_user_groups` DISABLE KEYS */;
 INSERT INTO `radiohead_user_groups` VALUES (1,'bureaucrat'),(1,'sysop');
 /*!40000 ALTER TABLE `radiohead_user_groups` ENABLE KEYS */;
@@ -7,4 +8,3 @@ UNLOCK TABLES;
 -- Table structure for table `radiohead_user_newtalk`
 --
 
-DROP TABLE IF EXISTS `radiohead_user_newtalk`;
