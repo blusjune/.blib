@@ -1,5 +1,5 @@
 #!/bin/sh
-#_ver=20130708_223849;
+#_ver=20130709_222408;
 
 if [ ! -d tmp ]; then
 	if [ -d /x/t/share ]; then
