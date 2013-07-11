@@ -1,3 +1,4 @@
+-- Table structure for table `radiohead_user_former_groups`
 --
 
 DROP TABLE IF EXISTS `radiohead_user_former_groups`;
@@ -7,4 +8,3 @@ CREATE TABLE `radiohead_user_former_groups` (
   `ufg_user` int(10) unsigned NOT NULL DEFAULT '0',
   `ufg_group` varbinary(255) NOT NULL DEFAULT '',
   UNIQUE KEY `ufg_user_group` (`ufg_user`,`ufg_group`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;

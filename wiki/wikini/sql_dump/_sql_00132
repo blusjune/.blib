@@ -1,3 +1,4 @@
+--
 -- Table structure for table `radiohead_transcache`
 --
 
@@ -7,4 +8,3 @@ DROP TABLE IF EXISTS `radiohead_transcache`;
 CREATE TABLE `radiohead_transcache` (
   `tc_url` varbinary(255) NOT NULL,
   `tc_contents` blob,
-  `tc_time` binary(14) DEFAULT NULL,
