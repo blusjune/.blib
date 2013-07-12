@@ -1,3 +1,5 @@
+  KEY `user_id` (`user_id`),
+  KEY `user_ip` (`user_ip`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -6,5 +8,3 @@
 --
 
 LOCK TABLES `radiohead_user_newtalk` WRITE;
-/*!40000 ALTER TABLE `radiohead_user_newtalk` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_user_newtalk` ENABLE KEYS */;
