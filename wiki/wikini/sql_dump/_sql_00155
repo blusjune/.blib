@@ -1,3 +1,4 @@
+
 --
 -- Table structure for table `radiohead_valid_tag`
 --
@@ -7,4 +8,3 @@ DROP TABLE IF EXISTS `radiohead_valid_tag`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_valid_tag` (
   `vt_tag` varbinary(255) NOT NULL,
-  PRIMARY KEY (`vt_tag`)
