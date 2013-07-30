@@ -1,3 +1,4 @@
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_watchlist` (
   `wl_user` int(10) unsigned NOT NULL,
   `wl_namespace` int(11) NOT NULL DEFAULT '0',
@@ -7,4 +8,3 @@ CREATE TABLE `radiohead_watchlist` (
   KEY `namespace_title` (`wl_namespace`,`wl_title`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
