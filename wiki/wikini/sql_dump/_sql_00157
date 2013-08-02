@@ -1,3 +1,4 @@
+
 LOCK TABLES `radiohead_valid_tag` WRITE;
 /*!40000 ALTER TABLE `radiohead_valid_tag` DISABLE KEYS */;
 /*!40000 ALTER TABLE `radiohead_valid_tag` ENABLE KEYS */;
@@ -7,4 +8,3 @@ UNLOCK TABLES;
 -- Table structure for table `radiohead_watchlist`
 --
 
-DROP TABLE IF EXISTS `radiohead_watchlist`;
