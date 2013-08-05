@@ -1,3 +1,4 @@
+  KEY `namespace_title` (`wl_namespace`,`wl_title`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -7,4 +8,3 @@
 
 LOCK TABLES `radiohead_watchlist` WRITE;
 /*!40000 ALTER TABLE `radiohead_watchlist` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_watchlist` ENABLE KEYS */;

@@ -10,6 +10,6 @@ touch .tstamp.$(tstamp);
 
 git add -A
 git commit -a
-git push -u
+git push --all -u
 
 

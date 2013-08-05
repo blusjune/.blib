@@ -1,3 +1,4 @@
+  PRIMARY KEY (`us_id`),
   UNIQUE KEY `us_key` (`us_key`),
   KEY `us_user` (`us_user`),
   KEY `us_timestamp` (`us_timestamp`)
@@ -7,4 +8,3 @@
 --
 -- Dumping data for table `radiohead_uploadstash`
 --
-

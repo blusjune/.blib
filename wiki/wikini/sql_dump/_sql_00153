@@ -1,3 +1,4 @@
+-- Table structure for table `radiohead_user_properties`
 --
 
 DROP TABLE IF EXISTS `radiohead_user_properties`;
@@ -7,4 +8,3 @@ CREATE TABLE `radiohead_user_properties` (
   `up_user` int(11) NOT NULL,
   `up_property` varbinary(255) DEFAULT NULL,
   `up_value` blob,
-  UNIQUE KEY `user_properties_user_property` (`up_user`,`up_property`),
