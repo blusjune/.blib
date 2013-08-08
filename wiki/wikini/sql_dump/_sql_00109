@@ -1,5 +1,5 @@
   KEY `page_user_timestamp` (`rev_page`,`rev_user`,`rev_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=986 DEFAULT CHARSET=binary MAX_ROWS=10000000 AVG_ROW_LENGTH=1024;
+) ENGINE=InnoDB AUTO_INCREMENT=1006 DEFAULT CHARSET=binary MAX_ROWS=10000000 AVG_ROW_LENGTH=1024;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
