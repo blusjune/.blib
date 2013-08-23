@@ -1,3 +1,4 @@
+CREATE TABLE `radiohead_revision` (
   `rev_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `rev_page` int(10) unsigned NOT NULL,
   `rev_text_id` int(10) unsigned NOT NULL,
@@ -7,4 +8,3 @@
   `rev_timestamp` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
   `rev_minor_edit` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `rev_deleted` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `rev_len` int(10) unsigned DEFAULT NULL,

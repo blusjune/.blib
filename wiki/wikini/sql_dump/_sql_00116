@@ -1,3 +1,4 @@
+-- Table structure for table `radiohead_site_stats`
 --
 
 DROP TABLE IF EXISTS `radiohead_site_stats`;
@@ -7,4 +8,3 @@ CREATE TABLE `radiohead_site_stats` (
   `ss_row_id` int(10) unsigned NOT NULL,
   `ss_total_views` bigint(20) unsigned DEFAULT '0',
   `ss_total_edits` bigint(20) unsigned DEFAULT '0',
-  `ss_good_articles` bigint(20) unsigned DEFAULT '0',

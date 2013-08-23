@@ -1,3 +1,4 @@
+  `rev_len` int(10) unsigned DEFAULT NULL,
   `rev_parent_id` int(10) unsigned DEFAULT NULL,
   `rev_sha1` varbinary(32) NOT NULL DEFAULT '',
   `rev_content_model` varbinary(32) DEFAULT NULL,
@@ -7,4 +8,3 @@
   KEY `rev_timestamp` (`rev_timestamp`),
   KEY `page_timestamp` (`rev_page`,`rev_timestamp`),
   KEY `user_timestamp` (`rev_user`,`rev_timestamp`),
-  KEY `usertext_timestamp` (`rev_user_text`,`rev_timestamp`),

@@ -1,10 +1,10 @@
+-- Dumping data for table `radiohead_site_stats`
 --
 
 LOCK TABLES `radiohead_site_stats` WRITE;
 /*!40000 ALTER TABLE `radiohead_site_stats` DISABLE KEYS */;
-INSERT INTO `radiohead_site_stats` VALUES (1,1830,1086,23,111,1,1,47);
+INSERT INTO `radiohead_site_stats` VALUES (1,2035,1226,25,121,1,1,47);
 /*!40000 ALTER TABLE `radiohead_site_stats` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `radiohead_sites`

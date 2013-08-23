@@ -1,3 +1,4 @@
+-- Table structure for table `radiohead_tag_summary`
 --
 
 DROP TABLE IF EXISTS `radiohead_tag_summary`;
@@ -7,4 +8,3 @@ CREATE TABLE `radiohead_tag_summary` (
   `ts_rc_id` int(11) DEFAULT NULL,
   `ts_log_id` int(11) DEFAULT NULL,
   `ts_rev_id` int(11) DEFAULT NULL,
-  `ts_tags` blob NOT NULL,

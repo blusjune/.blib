@@ -1,3 +1,4 @@
+--
 -- Dumping data for table `radiohead_site_identifiers`
 --
 
@@ -7,4 +8,3 @@ LOCK TABLES `radiohead_site_identifiers` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `radiohead_site_stats`
