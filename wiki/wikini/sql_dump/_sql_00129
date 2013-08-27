@@ -2,7 +2,7 @@
   `old_text` mediumblob NOT NULL,
   `old_flags` tinyblob NOT NULL,
   PRIMARY KEY (`old_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1154 DEFAULT CHARSET=binary MAX_ROWS=10000000 AVG_ROW_LENGTH=10240;
+) ENGINE=InnoDB AUTO_INCREMENT=1185 DEFAULT CHARSET=binary MAX_ROWS=10000000 AVG_ROW_LENGTH=10240;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
