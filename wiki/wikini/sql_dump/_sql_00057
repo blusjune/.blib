@@ -2,7 +2,7 @@
   KEY `log_user_type_time` (`log_user`,`log_type`,`log_timestamp`),
   KEY `log_page_id_time` (`log_page`,`log_timestamp`),
   KEY `type_action` (`log_type`,`log_action`,`log_timestamp`)
-) ENGINE=InnoDB AUTO_INCREMENT=1228 DEFAULT CHARSET=binary;
+) ENGINE=InnoDB AUTO_INCREMENT=1246 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
