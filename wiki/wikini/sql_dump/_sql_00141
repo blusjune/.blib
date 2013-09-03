@@ -1,3 +1,5 @@
+
+--
 -- Dumping data for table `radiohead_uploadstash`
 --
 
@@ -6,5 +8,3 @@ LOCK TABLES `radiohead_uploadstash` WRITE;
 INSERT INTO `radiohead_uploadstash` VALUES (5,1,'11ikl04gquwg.lr88tw.1.png','/tmp/php7j2laH','mwrepo://local/temp/d/d2/20130619110816!php7j2laH.png','file','20130619110816','finished',NULL,'a:12:{s:5:\"width\";i:1281;s:6:\"height\";i:984;s:4:\"bits\";i:8;s:10:\"fileExists\";b:1;s:4:\"mime\";s:9:\"image/png\";s:10:\"media_type\";s:6:\"BITMAP\";s:8:\"metadata\";s:396:\"a:6:{s:10:\"frameCount\";i:0;s:9:\"loopCount\";i:1;s:8:\"duration\";d:0;s:8:\"bitDepth\";i:8;s:9:\"colorType\";s:10:\"truecolour\";s:8:\"metadata\";a:6:{s:11:\"XResolution\";s:8:\"3780/100\";s:11:\"YResolution\";s:8:\"3780/100\";s:14:\"ResolutionUnit\";i:3;s:8:\"DateTime\";s:19:\"2013:06:19 02:28:24\";s:14:\"PNGFileComment\";a:2:{s:9:\"x-default\";s:17:\"Created with GIMP\";s:5:\"_type\";s:4:\"lang\";}s:15:\"_MW_PNG_VERSION\";i:1;}}\";s:4:\"sha1\";s:31:\"1yy101zoljrrv5v8q7zt80463h94rbi\";s:9:\"file-mime\";s:9:\"image/png\";s:10:\"minor_mime\";s:3:\"png\";s:10:\"major_mime\";s:5:\"image\";s:4:\"size\";i:54401;}',54401,'1yy101zoljrrv5v8q7zt80463h94rbi','image/png','BITMAP',1281,984,8),(7,1,'11j8cwu5fm64.5k5yhf.1.png','/tmp/phpmGLKUH','mwrepo://local/temp/e/e5/20130627052701!phpmGLKUH.png','file','20130627052701','finished',NULL,'a:12:{s:5:\"width\";i:1285;s:6:\"height\";i:986;s:4:\"bits\";i:8;s:10:\"fileExists\";b:1;s:4:\"mime\";s:9:\"image/png\";s:10:\"media_type\";s:6:\"BITMAP\";s:8:\"metadata\";s:396:\"a:6:{s:10:\"frameCount\";i:0;s:9:\"loopCount\";i:1;s:8:\"duration\";d:0;s:8:\"bitDepth\";i:8;s:9:\"colorType\";s:10:\"truecolour\";s:8:\"metadata\";a:6:{s:11:\"XResolution\";s:8:\"3780/100\";s:11:\"YResolution\";s:8:\"3780/100\";s:14:\"ResolutionUnit\";i:3;s:8:\"DateTime\";s:19:\"2013:06:27 04:37:30\";s:14:\"PNGFileComment\";a:2:{s:9:\"x-default\";s:17:\"Created with GIMP\";s:5:\"_type\";s:4:\"lang\";}s:15:\"_MW_PNG_VERSION\";i:1;}}\";s:4:\"sha1\";s:31:\"hnw3q2gwt1ills9tdubt7uwt7zqcnv7\";s:9:\"file-mime\";s:9:\"image/png\";s:10:\"minor_mime\";s:3:\"png\";s:10:\"major_mime\";s:5:\"image\";s:4:\"size\";i:49549;}',49549,'hnw3q2gwt1ills9tdubt7uwt7zqcnv7','image/png','BITMAP',1285,986,8);
 /*!40000 ALTER TABLE `radiohead_uploadstash` ENABLE KEYS */;
 UNLOCK TABLES;
-
---

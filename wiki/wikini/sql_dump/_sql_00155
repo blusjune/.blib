@@ -1,3 +1,5 @@
+-- Dumping data for table `radiohead_user_properties`
+--
 
 LOCK TABLES `radiohead_user_properties` WRITE;
 /*!40000 ALTER TABLE `radiohead_user_properties` DISABLE KEYS */;
@@ -5,6 +7,4 @@ INSERT INTO `radiohead_user_properties` VALUES (1,'gender','male'),(1,'imagesize
 /*!40000 ALTER TABLE `radiohead_user_properties` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Table structure for table `radiohead_valid_tag`
 --
