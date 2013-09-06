@@ -1,3 +1,4 @@
+--
 -- Table structure for table `radiohead_valid_tag`
 --
 
@@ -7,4 +8,3 @@ DROP TABLE IF EXISTS `radiohead_valid_tag`;
 CREATE TABLE `radiohead_valid_tag` (
   `vt_tag` varbinary(255) NOT NULL,
   PRIMARY KEY (`vt_tag`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;
