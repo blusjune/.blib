@@ -1,3 +1,4 @@
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_user_properties` (
   `up_user` int(11) NOT NULL,
@@ -7,4 +8,3 @@ CREATE TABLE `radiohead_user_properties` (
   KEY `user_properties_property` (`up_property`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
