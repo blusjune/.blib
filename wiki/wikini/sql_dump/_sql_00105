@@ -7,4 +7,4 @@
 
 LOCK TABLES `radiohead_redirect` WRITE;
 /*!40000 ALTER TABLE `radiohead_redirect` DISABLE KEYS */;
-INSERT INTO `radiohead_redirect` VALUES (131,0,'Artificial_neural_network','',''),(136,0,'Lecture_notes_and_online_courses','',''),(151,0,'Industry_intelligence','','');
+INSERT INTO `radiohead_redirect` VALUES (131,0,'Artificial_neural_network','',''),(136,0,'Lecture_notes_and_online_courses','',''),(151,0,'Industry_intelligence','',''),(153,0,'Industry_intelligence_-_company_profile','',''),(154,0,'Industry_intelligence_-_Flash_Memory_Summit_2013','','');
