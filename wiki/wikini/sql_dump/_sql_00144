@@ -1,3 +1,4 @@
+  `user_email` tinyblob NOT NULL,
   `user_touched` binary(14) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
   `user_token` binary(32) NOT NULL DEFAULT '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0',
   `user_email_authenticated` binary(14) DEFAULT NULL,
@@ -7,4 +8,3 @@
   `user_editcount` int(11) DEFAULT NULL,
   PRIMARY KEY (`user_id`),
   UNIQUE KEY `user_name` (`user_name`),
-  KEY `user_email_token` (`user_email_token`),
