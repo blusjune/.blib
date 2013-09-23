@@ -1,3 +1,6 @@
+
+--
+-- Table structure for table `radiohead_user_groups`
 --
 
 DROP TABLE IF EXISTS `radiohead_user_groups`;
@@ -5,6 +8,3 @@ DROP TABLE IF EXISTS `radiohead_user_groups`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_user_groups` (
   `ug_user` int(10) unsigned NOT NULL DEFAULT '0',
-  `ug_group` varbinary(255) NOT NULL DEFAULT '',
-  UNIQUE KEY `ug_user_group` (`ug_user`,`ug_group`),
-  KEY `ug_group` (`ug_group`)

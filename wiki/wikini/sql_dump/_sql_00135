@@ -1,3 +1,6 @@
+  UNIQUE KEY `tc_url_idx` (`tc_url`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
 --
 -- Dumping data for table `radiohead_transcache`
@@ -5,6 +8,3 @@
 
 LOCK TABLES `radiohead_transcache` WRITE;
 /*!40000 ALTER TABLE `radiohead_transcache` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_transcache` ENABLE KEYS */;
-UNLOCK TABLES;
-

@@ -1,3 +1,6 @@
+  `up_property` varbinary(255) DEFAULT NULL,
+  `up_value` blob,
+  UNIQUE KEY `user_properties_user_property` (`up_user`,`up_property`),
   KEY `user_properties_property` (`up_property`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -5,6 +8,3 @@
 --
 -- Dumping data for table `radiohead_user_properties`
 --
-
-LOCK TABLES `radiohead_user_properties` WRITE;
-/*!40000 ALTER TABLE `radiohead_user_properties` DISABLE KEYS */;

@@ -1,10 +1,10 @@
-INSERT INTO `radiohead_user_properties` VALUES (1,'gender','male'),(1,'imagesize','4'),(1,'numberheadings','1'),(1,'rememberpassword','1'),(1,'thumbsize','5'),(1,'nickname',''),(1,'timecorrection','ZoneInfo|540|Asia/Seoul'),(1,'watchlisttoken','4ce2f801bebd0fb7492ad7339a8ba9d47c93dbe7'),(1,'vector-collapsiblenav','1');
+
+LOCK TABLES `radiohead_user_properties` WRITE;
+/*!40000 ALTER TABLE `radiohead_user_properties` DISABLE KEYS */;
+INSERT INTO `radiohead_user_properties` VALUES (1,'gender','male'),(1,'imagesize','4'),(1,'numberheadings','1'),(1,'rememberpassword','1'),(1,'showtoolbar',''),(1,'thumbsize','5'),(1,'nickname',''),(1,'timecorrection','ZoneInfo|540|Asia/Seoul'),(1,'watchlisttoken','4ce2f801bebd0fb7492ad7339a8ba9d47c93dbe7'),(1,'vector-collapsiblenav','1');
 /*!40000 ALTER TABLE `radiohead_user_properties` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
 -- Table structure for table `radiohead_valid_tag`
 --
-
-DROP TABLE IF EXISTS `radiohead_valid_tag`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
