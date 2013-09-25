@@ -7,4 +7,4 @@
 
 LOCK TABLES `radiohead_redirect` WRITE;
 /*!40000 ALTER TABLE `radiohead_redirect` DISABLE KEYS */;
-INSERT INTO `radiohead_redirect` VALUES (131,0,'Artificial_neural_network','',''),(136,0,'Lecture_notes_and_online_courses','','');
+INSERT INTO `radiohead_redirect` VALUES (131,0,'Artificial_neural_network','',''),(136,0,'Lecture_notes_and_online_courses','',''),(160,0,'Curriculum_vitae_-_Brian_Myungjune_JUNG_(CV_Brian)','',''),(162,0,'Operating_systems_-_Linux_kernel','','');

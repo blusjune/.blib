@@ -1,10 +1,10 @@
+  `vt_tag` varbinary(255) NOT NULL,
+  PRIMARY KEY (`vt_tag`)
+) ENGINE=InnoDB DEFAULT CHARSET=binary;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
 --
 -- Dumping data for table `radiohead_valid_tag`
 --
 
 LOCK TABLES `radiohead_valid_tag` WRITE;
-/*!40000 ALTER TABLE `radiohead_valid_tag` DISABLE KEYS */;
-/*!40000 ALTER TABLE `radiohead_valid_tag` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
