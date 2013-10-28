@@ -1,3 +1,4 @@
+  `site_type` varbinary(32) NOT NULL,
   `site_group` varbinary(32) NOT NULL,
   `site_source` varbinary(32) NOT NULL,
   `site_language` varbinary(32) NOT NULL,
@@ -7,4 +8,3 @@
   `site_forward` tinyint(1) NOT NULL,
   `site_config` blob NOT NULL,
   PRIMARY KEY (`site_id`),
-  UNIQUE KEY `sites_global_key` (`site_global_key`),

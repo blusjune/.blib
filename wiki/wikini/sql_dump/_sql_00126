@@ -1,3 +1,4 @@
+
 DROP TABLE IF EXISTS `radiohead_templatelinks`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
@@ -7,4 +8,3 @@ CREATE TABLE `radiohead_templatelinks` (
   `tl_title` varbinary(255) NOT NULL DEFAULT '',
   UNIQUE KEY `tl_from` (`tl_from`,`tl_namespace`,`tl_title`),
   UNIQUE KEY `tl_namespace` (`tl_namespace`,`tl_title`,`tl_from`)
-) ENGINE=InnoDB DEFAULT CHARSET=binary;

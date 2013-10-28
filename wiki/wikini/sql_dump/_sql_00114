@@ -1,3 +1,4 @@
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_site_identifiers` (
   `si_site` int(10) unsigned NOT NULL,
   `si_type` varbinary(32) NOT NULL,
@@ -7,4 +8,3 @@ CREATE TABLE `radiohead_site_identifiers` (
   KEY `site_ids_key` (`si_key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
-

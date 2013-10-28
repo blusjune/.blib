@@ -1,3 +1,4 @@
+  UNIQUE KEY `sites_global_key` (`site_global_key`),
   KEY `sites_type` (`site_type`),
   KEY `sites_group` (`site_group`),
   KEY `sites_source` (`site_source`),
@@ -7,4 +8,3 @@
   KEY `sites_forward` (`site_forward`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
