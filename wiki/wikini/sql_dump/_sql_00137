@@ -1,3 +1,6 @@
+-- Dumping data for table `radiohead_transcache`
+--
+
 LOCK TABLES `radiohead_transcache` WRITE;
 /*!40000 ALTER TABLE `radiohead_transcache` DISABLE KEYS */;
 /*!40000 ALTER TABLE `radiohead_transcache` ENABLE KEYS */;
@@ -5,6 +8,3 @@ UNLOCK TABLES;
 
 --
 -- Table structure for table `radiohead_updatelog`
---
-
-DROP TABLE IF EXISTS `radiohead_updatelog`;
