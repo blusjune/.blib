@@ -5,14 +5,16 @@
 ##_ver=20130514_112017;
 ##_ver=20130628_025524; #return to no use of 'if [ "#$_value" = "#y" ]; then'
 ##_ver=20130701_015219; #introduce /tmp/.bdxcf.wikini.enpack first time
+##_ver=20131213_003014; # change default setting for blib_wikini__enapck to 'yes' (previously it was 'no' by default)
 
 
 
 
-if [ -f /tmp/.bdxcf.wikini.enpack ]; then
-	_conf_wikini__enpack="y"; # default: "n"
+_bdxcf_blib_wikini__enpack_block="/tmp/.bdxcf.blib.wikini.enpack_no";
+if [ -f $_bdxcf_blib_wikini__enpack_block ]; then
+	_conf_wikini__enpack="n"; # default: "y"
 else
-	_conf_wikini__enpack="n"; # default: "n"
+	_conf_wikini__enpack="y"; # default: "y"
 fi
 _conf_wikini__root="${HOME}/.blib/wiki/wikini";
 _conf_wikini__target_db="wikidb_radiohead";
