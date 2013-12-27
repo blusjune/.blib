@@ -1,3 +1,4 @@
+  KEY `us_user` (`us_user`),
   KEY `us_timestamp` (`us_timestamp`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -7,4 +8,3 @@
 --
 
 LOCK TABLES `radiohead_uploadstash` WRITE;
-/*!40000 ALTER TABLE `radiohead_uploadstash` DISABLE KEYS */;
