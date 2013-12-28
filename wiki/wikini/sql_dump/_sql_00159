@@ -1,3 +1,5 @@
+--
+
 DROP TABLE IF EXISTS `radiohead_valid_tag`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
@@ -6,5 +8,3 @@ CREATE TABLE `radiohead_valid_tag` (
   PRIMARY KEY (`vt_tag`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---

@@ -1,3 +1,5 @@
+  `us_image_width` int(10) unsigned DEFAULT NULL,
+  `us_image_height` int(10) unsigned DEFAULT NULL,
   `us_image_bits` smallint(5) unsigned DEFAULT NULL,
   PRIMARY KEY (`us_id`),
   UNIQUE KEY `us_key` (`us_key`),
@@ -6,5 +8,3 @@
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `radiohead_uploadstash`
