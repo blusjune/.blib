@@ -1,3 +1,4 @@
+  `us_media_type` enum('UNKNOWN','BITMAP','DRAWING','AUDIO','VIDEO','MULTIMEDIA','OFFICE','TEXT','EXECUTABLE','ARCHIVE') DEFAULT NULL,
   `us_image_width` int(10) unsigned DEFAULT NULL,
   `us_image_height` int(10) unsigned DEFAULT NULL,
   `us_image_bits` smallint(5) unsigned DEFAULT NULL,
@@ -7,4 +8,3 @@
   KEY `us_timestamp` (`us_timestamp`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
-

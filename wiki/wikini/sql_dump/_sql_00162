@@ -1,3 +1,4 @@
+  `wl_namespace` int(11) NOT NULL DEFAULT '0',
   `wl_title` varbinary(255) NOT NULL DEFAULT '',
   `wl_notificationtimestamp` varbinary(14) DEFAULT NULL,
   UNIQUE KEY `wl_user` (`wl_user`,`wl_namespace`,`wl_title`),
@@ -7,4 +8,3 @@
 
 --
 -- Dumping data for table `radiohead_watchlist`
---
