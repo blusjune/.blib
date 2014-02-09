@@ -1,3 +1,4 @@
+  `ss_total_views` bigint(20) unsigned DEFAULT '0',
   `ss_total_edits` bigint(20) unsigned DEFAULT '0',
   `ss_good_articles` bigint(20) unsigned DEFAULT '0',
   `ss_total_pages` bigint(20) DEFAULT '-1',
@@ -7,4 +8,3 @@
   UNIQUE KEY `ss_row_id` (`ss_row_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
-

@@ -1,3 +1,4 @@
+  UNIQUE KEY `tl_namespace` (`tl_namespace`,`tl_title`,`tl_from`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -7,4 +8,3 @@
 
 LOCK TABLES `radiohead_templatelinks` WRITE;
 /*!40000 ALTER TABLE `radiohead_templatelinks` DISABLE KEYS */;
-INSERT INTO `radiohead_templatelinks` VALUES (8,10,'In_vector_calculus,_the_gradient_of_a_scalar_field_is_a_vector_field_that_points_in_the_direction_of_the_greatest_rate_of_increase_of_the_scalar_field,_and_whose_magnitude_is_that_rate_of_increase.'),(106,10,'Citation_needed');

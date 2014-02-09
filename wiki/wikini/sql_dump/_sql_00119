@@ -1,3 +1,4 @@
+
 --
 -- Table structure for table `radiohead_sites`
 --
@@ -7,4 +8,3 @@ DROP TABLE IF EXISTS `radiohead_sites`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `radiohead_sites` (
   `site_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `site_global_key` varbinary(32) NOT NULL,

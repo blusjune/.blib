@@ -1,3 +1,4 @@
+INSERT INTO `radiohead_templatelinks` VALUES (8,10,'In_vector_calculus,_the_gradient_of_a_scalar_field_is_a_vector_field_that_points_in_the_direction_of_the_greatest_rate_of_increase_of_the_scalar_field,_and_whose_magnitude_is_that_rate_of_increase.'),(106,10,'Citation_needed');
 /*!40000 ALTER TABLE `radiohead_templatelinks` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -7,4 +8,3 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `radiohead_text`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
