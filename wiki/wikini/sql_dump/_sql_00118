@@ -5,6 +5,6 @@
 
 LOCK TABLES `radiohead_site_stats` WRITE;
 /*!40000 ALTER TABLE `radiohead_site_stats` DISABLE KEYS */;
-INSERT INTO `radiohead_site_stats` VALUES (1,3568,2294,39,155,1,1,48);
+INSERT INTO `radiohead_site_stats` VALUES (1,3588,2304,39,156,1,1,48);
 /*!40000 ALTER TABLE `radiohead_site_stats` ENABLE KEYS */;
 UNLOCK TABLES;
